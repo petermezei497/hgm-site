@@ -1,0 +1,13 @@
+/* Reduce top spacing on pages */
+.post-title {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs {
+  margin-bottom: 0.5rem;
+}
+
+.post-content {
+  margin-top: 1.5rem;
+}

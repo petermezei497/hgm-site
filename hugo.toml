@@ -1,0 +1,76 @@
+baseURL = "http://localhost:1313/"
+title = "Human Growth Model"
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  ShowLanguageSwitcher = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.en]
+    languageName = "EN"
+    languageCode = "en-gb"
+    contentDir = "content/en"
+    weight = 1
+
+    [[languages.en.menu.main]]
+      name = "Posts"
+      pageRef = "/posts"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      name = "Core Ideas"
+      pageRef = "lessons"
+      weight = 15
+
+    [[languages.en.menu.main]]
+      name = "About"
+      pageRef = "/about"
+      weight = 20
+    
+    [[languages.en.menu.main]]
+      name = "Support"
+      pageRef = "support"
+      weight = 30
+
+  [languages.hu]
+    languageName = "HU"
+    languageCode = "hu-hu"
+    contentDir = "content/hu"
+    weight = 2
+
+    [[languages.hu.menu.main]]
+      name = "Posztok"
+      pageRef = "/posts"
+      weight = 10
+
+    [[languages.hu.menu.main]]
+      name = "Alapötletek"
+      pageRef = "lessons"
+      weight = 15
+
+    [[languages.hu.menu.main]]
+      name = "Rólam"
+      pageRef = "/about"
+      weight = 20
+
+    [[languages.hu.menu.main]]
+      name = "Támogatás"
+      pageRef = "support"
+      weight = 30
