@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://human-growth-model.xyz/"
 title = "Human Growth Model"
 theme = "PaperMod"
 
