@@ -1,199 +1,45 @@
-<!DOCTYPE html>
-<html lang="hu" dir="auto" data-theme="auto">
-
-<head>
-	<meta name="generator" content="Hugo 0.154.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Human Growth Model</title>
-
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/hu/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f093355e98e29c23cdbbd322bdda497beb0a96af4aefc9741f960075aa461e34.css" integrity="sha256-8JM1XpjinCPNu9MivdpJe&#43;sKlq9K78l0H5YAdapGHjQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/hu/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/en/">
-<link rel="alternate" hreflang="hu" href="http://localhost:1313/hu/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script>
-</head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/hu/" accesskey="h" title="Human Growth Model (Alt + H)">Human Growth Model</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                    <ul class="lang-switch"><li>|</li>
-                        <li>
-                            <a href="http://localhost:1313/en/" title="English"
-                                aria-label="English">English</a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/hu/posts/" title="Posztok">
-                    <span>Posztok</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/hu/lessons/" title="Alapötletek">
-                    <span>Alapötletek</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/hu/about/" title="Rólam">
-                    <span>Rólam</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/hu/support/" title="Támogatás">
-                    <span>Támogatás</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Az emberek nem motiválatlanok. Fáradtak.
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Ma megint eszembe jutott valami egyszerű.
+<!doctype html><html lang=hu dir=auto data-theme=auto><head><meta name=generator content="Hugo 0.154.3"><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Human Growth Model</title><meta name=description content><meta name=author content><link rel=canonical href=https://www.human-growth-model.xyz/hu/><link crossorigin=anonymous href=/assets/css/stylesheet.f093355e98e29c23cdbbd322bdda497beb0a96af4aefc9741f960075aa461e34.css integrity="sha256-8JM1XpjinCPNu9MivdpJe+sKlq9K78l0H5YAdapGHjQ=" rel="preload stylesheet" as=style><link rel=icon href=https://www.human-growth-model.xyz/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://www.human-growth-model.xyz/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://www.human-growth-model.xyz/favicon-32x32.png><link rel=apple-touch-icon href=https://www.human-growth-model.xyz/apple-touch-icon.png><link rel=mask-icon href=https://www.human-growth-model.xyz/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://www.human-growth-model.xyz/hu/index.xml title=rss><link rel=alternate hreflang=en href=https://www.human-growth-model.xyz/en/><link rel=alternate hreflang=hu href=https://www.human-growth-model.xyz/hu/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://www.human-growth-model.xyz/hu/"><meta property="og:site_name" content="Human Growth Model"><meta property="og:title" content="Human Growth Model"><meta property="og:locale" content="hu-hu"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Human Growth Model"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Human Growth Model","url":"https://www.human-growth-model.xyz/hu/","description":"","logo":"https://www.human-growth-model.xyz/favicon.ico","sameAs":[]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://www.human-growth-model.xyz/hu/ accesskey=h title="Human Growth Model (Alt + H)">Human Growth Model</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://www.human-growth-model.xyz/en/ title=English aria-label=English>English</a></li></ul></div></div><ul id=menu><li><a href=https://www.human-growth-model.xyz/hu/posts/ title=Posztok><span>Posztok</span></a></li><li><a href=https://www.human-growth-model.xyz/hu/lessons/ title=Alapötletek><span>Alapötletek</span></a></li><li><a href=https://www.human-growth-model.xyz/hu/about/ title=Rólam><span>Rólam</span></a></li><li><a href=https://www.human-growth-model.xyz/hu/support/ title=Támogatás><span>Támogatás</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Vajon egy mentálisan egészségesebb világban lassabb lenne az élet?</h2></header><div class=entry-content><p>Nem azért, mert lusták lennénk. Hanem mert nem lenne mi elől rohanni.
+Ma a rohanás nagy része nem időhiányból fakad, hanem belső hiányérzetből: – bizonyítás – megfelelés – félelem a lemaradástól
+Ha az alapállapot a mentális jól-lét lenne, ez az üzemmód egyszerűen nem kapcsolna be.
+Ha jó ott lenni, ahol vagy, nem kell máshol lenned.
+Az utazás nem menekülés lenne, hanem kíváncsiság. A munka nem nyomás, hanem alkotás. A teljesítmény nem cél, hanem melléktermék.
+...</p></div><footer class=entry-footer><span title='2026-01-10 00:00:00 +0000 UTC'>2026. január 10.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Vajon egy mentálisan egészségesebb világban lassabb lenne az élet?" href=https://www.human-growth-model.xyz/hu/posts/2026-01-10-vajon-egy-mentalisan-jobb-vilagban-lassabb-lesz-az-elet/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Ma mindenkihez volt kulcs</h2></header><div class=entry-content><p>Ma valahogy minden kapcsolódott.
+Petivel vitába futottunk bele.
+Bedobta a „boszorkányégetés” párhuzamot.
+Nem vágtam rá semmit.
+Elmondtam, hogy szerintem ez az ellenségképzés klasszikus mintája volt:
+„én megvédelek titeket az ellenségtől” —
+csak akkor még brutálisabb eszközökkel.
+Ugyanaz, mint most.
+Egyetértő csend.
+Aztán elmondta a mögöttes logikát.
+Végighallgattam.
+Sajnos sietett, így nem zártuk le.
+Csak annyit mondtam: ide visszatérünk.
+És ez így volt jó.
+Az autóval is kapcsolódtam.
+Furcsán nehéznek éreztem a kormányt,
+aztán leesett:
+az elmúlt két napban vezetett új autó hiperkönnyített kormánya miatt érzem csak ezt.
+...</p></div><footer class=entry-footer><span title='2026-01-09 00:00:00 +0000 UTC'>2026. január 9.</span>&nbsp;·&nbsp;<span>2 perc</span></footer><a class=entry-link aria-label="post link to Ma mindenkihez volt kulcs" href=https://www.human-growth-model.xyz/hu/posts/2026-01-09-ma-mindenkihez-volt-kulcs/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Az emberek nem motiválatlanok. Fáradtak.</h2></header><div class=entry-content><p>Ma megint eszembe jutott valami egyszerű.
 Az emberek nem lusták. Nem érdektelenek. Nem motiválatlanok.
 Fáradtak.
 Elfáradtak abban, hogy mindig alkalmazkodni kell. Abban, hogy mindennek ára van. Abban, hogy „össze kell szedni magad”. Abban, hogy akkor is menni kell, amikor már nincs miből.
 És amikor valaki pihenni akar, rögtön megkapja, hogy „akkor nincs benned elég akarat”.
 Pedig lehet, hogy csak túl sokáig volt erős.
 Nem több motiváció kell. Nem még egy cél. Nem egy újabb „csak csináld”.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-08 00:00:00 +0000 UTC'>2026. január 8.</span>&nbsp;·&nbsp;<span>1 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Az emberek nem motiválatlanok. Fáradtak." href="http://localhost:1313/hu/posts/2026-01-08-az-emberek-nem-motivalatlanok-hanem-faradtak/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">HGM – ütközési térkép
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Nem egyik napról a másikra történik. Inkább apró súrlódásokkal indul.
+...</p></div><footer class=entry-footer><span title='2026-01-08 00:00:00 +0000 UTC'>2026. január 8.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Az emberek nem motiválatlanok. Fáradtak." href=https://www.human-growth-model.xyz/hu/posts/2026-01-08-az-emberek-nem-motivalatlanok-hanem-faradtak/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>HGM – ütközési térkép</h2></header><div class=entry-content><p>Nem egyik napról a másikra történik. Inkább apró súrlódásokkal indul.
 Olyan mondatokkal, amik ismerősek:
 „Miért érzem magam fáradtnak, amikor elvileg nincs is baj?” „Miért nehéz segítséget kérni, még akkor is, amikor lenne kitől?” „Miért lett a munkából túlélés?” „Miért érzem azt, hogy állandóan bizonyítanom kell?” Ezek nem egyéni hibák. Hanem ütközések.
 Ütközés a régi működés és az emberi idegrendszer között.
 Ahol a rendszer ezt mondja: teljesíts → bizonyíts → tartsd a szereped
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-07 00:00:00 +0000 UTC'>2026. január 7.</span>&nbsp;·&nbsp;<span>2 perc</span></footer>
-  <a class="entry-link" aria-label="post link to HGM – ütközési térkép" href="http://localhost:1313/hu/posts/2026-01-07-hgm-utkozesi-terkep/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Az emberek normális énjének ébredése
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Egy ideje azt vettem észre, hogy nem az emberek „felébredését” várom. Hanem azt, hogy a saját normális énjük végre levegőhöz jusson.
+...</p></div><footer class=entry-footer><span title='2026-01-07 00:00:00 +0000 UTC'>2026. január 7.</span>&nbsp;·&nbsp;<span>2 perc</span></footer><a class=entry-link aria-label="post link to HGM – ütközési térkép" href=https://www.human-growth-model.xyz/hu/posts/2026-01-07-hgm-utkozesi-terkep/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Az emberek normális énjének ébredése</h2></header><div class=entry-content><p>Egy ideje azt vettem észre, hogy nem az emberek „felébredését” várom. Hanem azt, hogy a saját normális énjük végre levegőhöz jusson.
 Nem hiszem, hogy az emberek alapvetően rosszak, lusták vagy érdektelenek. Inkább túl vannak terhelve. Szétszakítva. Eltávolítva maguktól.
 És amikor valaki végre kap egy kis teret - nem nyomást, nem motivációt, nem elvárásokat - hanem jelenlétet… akkor valami egészen más történik.
 Megjelenik az ember. Nem agresszív. Nem védekező. Hanem kíváncsi. Kapcsolódó. Élő.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-06 00:00:00 +0000 UTC'>2026. január 6.</span>&nbsp;·&nbsp;<span>1 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Az emberek normális énjének ébredése" href="http://localhost:1313/hu/posts/2026-01-06-az-emberek-normalis-enjenek-ebredese/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Majd megoldom egyedül!
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Van egy furcsa mondat, ami újra és újra felbukkan bennem.
+...</p></div><footer class=entry-footer><span title='2026-01-06 00:00:00 +0000 UTC'>2026. január 6.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Az emberek normális énjének ébredése" href=https://www.human-growth-model.xyz/hu/posts/2026-01-06-az-emberek-normalis-enjenek-ebredese/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Majd megoldom egyedül!</h2></header><div class=entry-content><p>Van egy furcsa mondat, ami újra és újra felbukkan bennem.
 “Majd megoldom egyedül!”
 Sokáig erőnek hittem. Önállóságnak. Érettségnek.
 Mostanában inkább mintának látom.
@@ -201,19 +47,7 @@ Mintha valahol nagyon korán megtanultuk volna, hogy segítséget kérni kényes
 Csak közben történik valami csendes csavar.
 A feladat nem lesz kevesebb. A teher viszont teljes egészében ránk marad.
 És nem azért fáradunk el, mert sok a munka, hanem mert egyedül visszük.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-05 00:00:00 +0000 UTC'>2026. január 5.</span>&nbsp;·&nbsp;<span>1 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Majd megoldom egyedül!" href="http://localhost:1313/hu/posts/2026-01-05-majd-megoldom-egyedul/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Miért nem a flow-ra tervezzük a munkát?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Ma azon gondolkodtam, miért nem lehet élmény a vezetés.
+...</p></div><footer class=entry-footer><span title='2026-01-05 00:00:00 +0000 UTC'>2026. január 5.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Majd megoldom egyedül!" href=https://www.human-growth-model.xyz/hu/posts/2026-01-05-majd-megoldom-egyedul/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Miért nem a flow-ra tervezzük a munkát?</h2></header><div class=entry-content><p>Ma azon gondolkodtam, miért nem lehet élmény a vezetés.
 Nem verseny.
 Nem gyorshajtás.
 Hanem jelenlét.
@@ -230,56 +64,20 @@ hogy amikor van egy tevékenység, ami feltölt
 akkor az életem más részei, amik nem szolgálnak,
 nem harccal tűnnek el —
 hanem egyszerűen lemorzsolódnak.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-05 00:00:00 +0000 UTC'>2026. január 5.</span>&nbsp;·&nbsp;<span>1 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Miért nem a flow-ra tervezzük a munkát?" href="http://localhost:1313/hu/posts/2026-01-05-miert-nem-a-flow-ra-tervezzuk-a-munkat/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Egyre kevésbé vonzanak a motivációs tartalmak
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Sőt, néha kifejezetten irritálnak.
+...</p></div><footer class=entry-footer><span title='2026-01-05 00:00:00 +0000 UTC'>2026. január 5.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Miért nem a flow-ra tervezzük a munkát?" href=https://www.human-growth-model.xyz/hu/posts/2026-01-05-miert-nem-a-flow-ra-tervezzuk-a-munkat/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Egyre kevésbé vonzanak a motivációs tartalmak</h2></header><div class=entry-content><p>Sőt, néha kifejezetten irritálnak.
 Sokáig nem értettem, miért. Aztán összeállt a kép.
 A legtöbb motivációs módszer nem azért létezik, mert az ember alapvetően lusta vagy céltalan. Hanem azért, mert kimerült, bizonytalan, félelemben tartott állapotban él.
 Ilyenkor kívülről kell: – felpörgetni – noszogatni – bizonygatni, hogy „képes vagy rá” – újra és újra energiát pumpálni bele
 Ez nem valódi motiváció. Ez ideiglenes hajtóanyag.
 Amikor viszont valaki mentálisan rendben van: – nem kell noszogatni – nem kell felspannolni – nem kell „rávenni” semmire
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-04 00:00:00 +0000 UTC'>2026. január 4.</span>&nbsp;·&nbsp;<span>1 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Egyre kevésbé vonzanak a motivációs tartalmak" href="http://localhost:1313/hu/posts/2026-01-04-egyre-kevesbe-vonzanak-a-motivacios-tartalmak/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Mikor a teljesítmény melléktermékké válik
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Van egy minta, amit egy ideje egyre tisztábban látok.
+...</p></div><footer class=entry-footer><span title='2026-01-04 00:00:00 +0000 UTC'>2026. január 4.</span>&nbsp;·&nbsp;<span>1 perc</span></footer><a class=entry-link aria-label="post link to Egyre kevésbé vonzanak a motivációs tartalmak" href=https://www.human-growth-model.xyz/hu/posts/2026-01-04-egyre-kevesbe-vonzanak-a-motivacios-tartalmak/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Mikor a teljesítmény melléktermékké válik</h2></header><div class=entry-content><p>Van egy minta, amit egy ideje egyre tisztábban látok.
 Vannak helyzetek, amik egyszerűen jól működnek. Egy beszélgetés. Egy közös “csinálás”. Egy kisebb projekt.
 És amikor ilyen történik, nem az marad meg, hogy mit csináltunk.
 Hanem az, hogy egyszer csak eltűnt az idő.
 „Basszus, már ennyi az idő?”
 Ez nem akkor történik, amikor mindenki nagyon igyekszik. Hanem akkor, amikor senkinek nem kell bizonyítania.
 Ilyenkor a szerepek fellazulnak. A státusz háttérbe húzódik. Néha még a megszólítás is megváltozik — nem döntésből, nem gesztusból, csak mert közelebb kerülünk egymáshoz.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-04 00:00:00 +0000 UTC'>2026. január 4.</span>&nbsp;·&nbsp;<span>2 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Mikor a teljesítmény melléktermékké válik" href="http://localhost:1313/hu/posts/2026-01-04-mikor-a-teljesitmeny-mellektermekke-valik/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">A HGM – a régi rendszer nyelvén
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Ha a régi rendszer felől nézünk rá, a HGM nem forradalom. Inkább egy logikus optimalizálás, amit eddig nem mertünk végiggondolni.
+...</p></div><footer class=entry-footer><span title='2026-01-04 00:00:00 +0000 UTC'>2026. január 4.</span>&nbsp;·&nbsp;<span>2 perc</span></footer><a class=entry-link aria-label="post link to Mikor a teljesítmény melléktermékké válik" href=https://www.human-growth-model.xyz/hu/posts/2026-01-04-mikor-a-teljesitmeny-mellektermekke-valik/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>A HGM – a régi rendszer nyelvén</h2></header><div class=entry-content><p>Ha a régi rendszer felől nézünk rá, a HGM nem forradalom. Inkább egy logikus optimalizálás, amit eddig nem mertünk végiggondolni.
 A jelenlegi működés alapfeltevése nagyjából ez:
 – az ember akkor teljesít, ha nyomás alatt van – a biztonság elkényelmesít – a félelem mozgásban tart
 Ezért kontrollt építünk. Mérünk és ellenőrzünk. Jutalmazunk és büntetünk. És elfogadjuk, hogy „ez ilyen”.
@@ -287,150 +85,9 @@ Ez működik.
 Működik — csak nem optimálisan.
 ⸻
 A régi rendszer maga is érzi, hogy valami szivárog.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-03 00:00:00 +0000 UTC'>2026. január 3.</span>&nbsp;·&nbsp;<span>2 perc</span></footer>
-  <a class="entry-link" aria-label="post link to A HGM – a régi rendszer nyelvén" href="http://localhost:1313/hu/posts/2026-01-03-a-hgm-a-regi-rendszer-nyelven/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Miért nem szárnyalnak a végletekig lekarcsúsított cégek?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Sokáig nem értettem valamit.
-Folyamatosan hallunk olyan szervezetekről, amelyek nem bánnak jól az embereikkel.
-– nincs valódi bevonás – nincs bizalom – nincs emberi figyelem
-És mégsem omlanak össze.
-Ez zavart.
-⸻
-Idővel kezdett összeállni a kép.
-Ezek a cégek működnek — de többnyire csak túlélő üzemmódban.
-Teljesítenek, de nem bontakoznak ki.
-Stabilak, de nem élők.
-A potenciál ott van bennük, csak nem szabadul fel.
-⸻
-A hierarchikus, félelemalapú rendszerekben mindenki alkalmazkodik.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-02 00:00:00 +0000 UTC'>2026. január 2.</span>&nbsp;·&nbsp;<span>2 perc</span></footer>
-  <a class="entry-link" aria-label="post link to Miért nem szárnyalnak a végletekig lekarcsúsított cégek?" href="http://localhost:1313/hu/posts/2026-01-02-miert-nem-szarnyalnak-a-vegletekig-lekarcsusitott-cegek/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">A hiány és a félelem – és ami mögötte van
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Van egy állapot, amiben sokan élünk.
-Nem hangos.
-Nem drámai.
-Inkább egy folyamatos, háttérben futó feszültség.
-Az érzés, hogy nem elég.
-Nem elég a pénz.
-Nem elég a biztonság.
-Nem elég az idő, az energia, a tartalék.
-És ebből a hiányérzetből tanulunk meg működni.
-Megtanuljuk, hogy
-mindent egyedül kell megoldani,
-segítséget kérni gyengeség,
-ha megállsz, lemaradsz,
-ha nem teljesítesz, baj lesz.
-A furcsa az, hogy ez a félelem sokszor akkor sem tűnik el,
-amikor már „elvileg” nincs okunk rá.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-01-01 00:00:00 +0000 UTC'>2026. január 1.</span>&nbsp;·&nbsp;<span>2 perc</span></footer>
-  <a class="entry-link" aria-label="post link to A hiány és a félelem – és ami mögötte van" href="http://localhost:1313/hu/posts/2026-01-01-a-hiany-es-a-felelem-es-ami-mogotte-van/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/hu/">
-      «&nbsp;Előző oldal&nbsp;
-    </a>
-    <a class="next" href="http://localhost:1313/hu/page/3/">Következő oldal&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/hu/">Human Growth Model</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+...</p></div><footer class=entry-footer><span title='2026-01-03 00:00:00 +0000 UTC'>2026. január 3.</span>&nbsp;·&nbsp;<span>2 perc</span></footer><a class=entry-link aria-label="post link to A HGM – a régi rendszer nyelvén" href=https://www.human-growth-model.xyz/hu/posts/2026-01-03-a-hgm-a-regi-rendszer-nyelven/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://www.human-growth-model.xyz/hu/>«&nbsp;Előző oldal&nbsp;
+</a><a class=next href=https://www.human-growth-model.xyz/hu/page/3/>Következő oldal&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://www.human-growth-model.xyz/hu/>Human Growth Model</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

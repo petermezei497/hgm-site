@@ -2,7 +2,7 @@
 title: HGM Journal – How the blog came into being
 date: 2026-01-21
 draft: false
-publishDate: 2026-01-21T19:30:00Z
+publishDate: 2026-01-21T21:30:00Z
 ---
 
 I didn’t build a blog.
