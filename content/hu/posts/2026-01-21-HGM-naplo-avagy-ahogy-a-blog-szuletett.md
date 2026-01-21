@@ -1,5 +1,5 @@
 ---
-title: "HGM napló – avagy ahogy a blog született”
+title: HGM napló – avagy ahogy a blog született
 date: 2026-01-21
 draft: false
 publishDate: 2026-01-21T19:30:00Z

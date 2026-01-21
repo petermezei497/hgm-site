@@ -1,5 +1,5 @@
 ---
-title: "Consciously Human. Professionally, if needed."
+title: Consciously Human. Professionally, if needed.
 date: 2026-01-21
 draft: false
 ---

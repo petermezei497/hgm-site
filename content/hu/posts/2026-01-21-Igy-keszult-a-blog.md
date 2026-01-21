@@ -1,5 +1,5 @@
 ---
-title: "Így készült a blog…"
+title: Így készült a blog…
 date: 2026-01-21
 draft: false
 ---
