@@ -1,4 +1,4 @@
-baseURL = "https://human-growth-model.xyz/"
+baseURL = "https://www.human-growth-model.xyz/"
 title = "Human Growth Model"
 theme = "PaperMod"
 
@@ -16,6 +16,7 @@ defaultContentLanguageInSubdir = true
   ShowBreadCrumbs = true
   ShowToc = true
   ShowLanguageSwitcher = true
+  displayFullLangName = true
 
 [markup]
   [markup.goldmark]
@@ -24,10 +25,12 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    languageName = "EN"
+    languageName = "English"
     languageCode = "en-gb"
     contentDir = "content/en"
     weight = 1
+	[languages.en.params]
+	languageAltTitle = "English"
 
     [[languages.en.menu.main]]
       name = "Posts"
@@ -50,10 +53,12 @@ defaultContentLanguageInSubdir = true
       weight = 30
 
   [languages.hu]
-    languageName = "HU"
+    languageName = "Magyar"
     languageCode = "hu-hu"
     contentDir = "content/hu"
     weight = 2
+	[languages.hu.params]
+	languageAltTitle = "Magyar"
 
     [[languages.hu.menu.main]]
       name = "Posztok"

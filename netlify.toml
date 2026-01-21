@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "https://human-growth-model.xyz/*"
+  to = "https://www.human-growth-model.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://human-growth-model.xyz/*"
+  to = "https://www.human-growth-model.xyz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.human-growth-model.xyz/*"
+  to = "https://www.human-growth-model.xyz/:splat"
+  status = 301
+  force = true
