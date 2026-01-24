@@ -34,10 +34,3 @@ Not because of the past,
 but because many of our present-day systems operate in exactly the same way:
 they’re not afraid of the truth —
 they’re afraid they wouldn’t withstand correction.
-
-
-—
-
-If you have three more minutes
-and feel like reading something calm and reflective:
-👉 https://www.human-growth-model.xyz

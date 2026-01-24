@@ -116,9 +116,3 @@ is not too big.<br><br>
 Perhaps our lens<br>
 has simply been<br>
 too narrow.<br><br>
-
----
-
-More pieces like this<br>
-live here:<br>
-→ human-growth-model.xyz

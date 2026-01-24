@@ -39,10 +39,3 @@ közösségekhez, rendszerekhez.
 
 Lehet, hogy nem az átláthatóság veszélyes.
 Lehet, hogy csak a törékeny rendszereknek az.
-
-
----
-
-Ha van még 3 perced,
-és jól esne valami nyugodt, elgondolkodtató olvasnivaló::
-👉 [https://www.human-growth-model.xyz](https://www.human-growth-model.xyz)

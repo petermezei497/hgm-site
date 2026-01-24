@@ -112,10 +112,4 @@ Nem technológiai sci-fi.<br><br>
 Inkább annak jele,<br>
 hogy a mércénk<br>
 eddig talán<br>
-túl szűk volt.<br>❤️<br>
-
----
-
-Ha szeretnél még ilyen írásokat,<br>
-itt vannak egy helyen:<br>
-→ human-growth-model.xyz
+túl szűk volt.<br>❤️

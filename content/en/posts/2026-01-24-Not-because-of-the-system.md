@@ -20,9 +20,3 @@ the more stable and resilient the whole network becomes.
 Perhaps what we need first is not new systems,
 but to relearn how to hold one another —
 across different levels, at the same time. ❤️
-
-—
-
-More reflections like this,
-live here:
-→ human-growth-model.xyz

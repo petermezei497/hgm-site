@@ -39,10 +39,3 @@ Nem a múlt miatt,
 hanem azért, mert nagyon sok jelenkori rendszerünk működik ugyanígy:
 nem az igazságtól fél,
 hanem attól, hogy nem bírná el a korrekciót.
-
-
-________
-
-Ha van még 3 perced,
-és jól esne valami nyugodt, elgondolkodtató olvasnivaló::
-👉 [https://www.human-growth-model.xyz](https://www.human-growth-model.xyz)

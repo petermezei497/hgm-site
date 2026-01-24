@@ -21,10 +21,3 @@ annál stabilabb és boldogabb lesz az egész háló.
 Lehet, hogy nem új rendszerekre lenne először szükségünk,
 hanem arra, hogy újra megtanuljuk megtartani egymást –
 több szinten, egyszerre. ❤️
-
-
----
-
-Ha szeretnél még ilyen írásokat,
-itt vannak egy helyen: 
-→ human-growth-model.xyz

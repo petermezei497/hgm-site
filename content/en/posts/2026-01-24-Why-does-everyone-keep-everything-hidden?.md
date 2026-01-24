@@ -39,10 +39,3 @@ to systems.
 
 Perhaps transparency itself isn’t dangerous.
 Perhaps it’s only fragile systems that can’t withstand it.
-
-
-—
-
-If you have three more minutes
-and feel like reading something calm and reflective:
-👉 https://www.human-growth-model.xyz
