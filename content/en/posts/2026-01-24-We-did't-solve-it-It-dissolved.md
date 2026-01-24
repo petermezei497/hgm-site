@@ -1,5 +1,5 @@
 ---
-title: We didn’t solve it. It dissolved
+title: HGM Journal - We didn’t solve it. It dissolved
 date: 2026-01-24
 draft: false
 publishDate: 2026-01-24T14:00:00Z
