@@ -4,30 +4,30 @@ slug: "about"
 draft: false
 ---
 
-Hi, I’m Pete.
+Hi, I'm Pete,
 
-The Human Growth Model (HGM) isn’t self-help and it isn’t an ideology.
-It’s a repeatable, human-centred way of thinking about one core question:
-how we become mentally well — and then build from that state.
+I write to think.
+And I think to understand how systems affect people.
 
-This space is a collection of notes, experiments, and emerging frameworks.
-I often start from small, everyday moments (because that’s where reality leaks through),
-then translate them into a systems view.
+I’m interested in how work, structure, culture and everyday decisions
+shape our nervous systems — often quietly, without us noticing.
 
-The goal isn’t optimisation or endurance.
-It’s to create from inner stability.
+I don’t offer ready-made answers.
+I pay attention, connect patterns,
+and share what becomes visible along the way.
 
-Read, question, challenge, suggest topics —  
-playful, but precise.  
-That’s how the model stays alive. 🤓
+Sometimes this turns into short journal-like pieces.
+Sometimes into questions that don’t rush towards conclusions.
 
----
+If something here resonates
+and you’d like to talk, reflect, or simply say hello:
+
+hello@human-growth-model.xyz
+
 
 If you feel like supporting this work,
 it’s genuinely appreciated. ❤️
 
----
-
-We don’t need to be faster.  
-Or harder.  
+We don’t need to be faster.
+Or harder.
 Just freer. ❤️

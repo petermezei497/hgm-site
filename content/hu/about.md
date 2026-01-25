@@ -6,25 +6,32 @@ draft: false
 
 Szia, Peti vagyok.
 
-A Human Growth Model (HGM) nálam nem önfejlesztés és nem ideológia, hanem egy ismételhető, emberközpontú működési logika:
-hogyan teremtsünk belső stabilitást,
-és ebből hogyan építsünk rendszereket, kapcsolatokat, munkát.
+Azért írok, hogy gondolkodjak.
+És azért gondolkodom, hogy megértsem,
+hogyan hatnak a rendszerek az emberekre.
 
-Itt jegyzeteket, gondolatkísérleteket és formálódó kereteket találsz. Gyakran nagyon személyes megfigyelésekből indulok (szokatlan nézőpontból 😉), és abból bontom ki a rendszerszintű következtetéseket.
+Az érdekel, hogy a munka, a struktúrák, a kultúra
+és a hétköznapi döntések
+hogyan formálják az idegrendszerünket —
+gyakran csendben, észrevétlenül.
 
-A cél nem az, hogy alkalmazkodjunk vagy kibírjunk,
-hanem hogy mentálisan jobban legyünk —
-és ebből a belső stabilitásból alkossunk együtt.
+Nem kínálok kész válaszokat.
+Figyelek, összekapcsolok mintákat,
+és megosztom azt, ami közben láthatóvá válik.
 
-Ha van kedved: olvass, kérdezz, vitatkozz, vagy hozz témát.  
-A modell ettől él. 🤓
+Ez néha rövid, naplószerű írásokban jelenik meg.
+Máskor olyan kérdésekben,
+amelyek nem sietnek a lezárás felé.
 
----
+Ha itt bármi megszólít,
+és szívesen beszélgetnél, gondolkodnál együtt,
+vagy csak köszönnél:
 
-Ha szeretnéd támogatni a munkámat és azt, hogy ez a tér tovább éljen és alakuljon,
-azt nagyra értékelem. ❤️
+hello@human-growth-model.xyz
 
----
+
+Ha szeretnéd támogatni ezt a munkát,
+az őszintén jólesik. ❤️
 
 Nem gyorsabbnak kell lennünk.  
 Nem keményebbnek.  
