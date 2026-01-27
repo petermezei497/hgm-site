@@ -1,0 +1,2192 @@
+1
+00:00:00,000 --> 00:00:03,880
+Érezted már azt az elmúlt években, hogy valami alapvetően elcsúszott?
+
+2
+00:00:04,160 --> 00:00:09,220
+Nem egy-egy döntés, nem egy válság, nem egy rossz kormányzati ciklus, hanem minden.
+
+3
+00:00:09,600 --> 00:00:11,000
+Maga a rendszer, amiben élünk.
+
+4
+00:00:11,360 --> 00:00:14,280
+Dolgozunk, tanulunk, vásárolunk, éljük az életünket,
+
+5
+00:00:14,640 --> 00:00:18,700
+mégis egyre kevésbé érezzük azt, hogy valami értelmes, szebb jövő felé haladnánk.
+
+6
+00:00:18,880 --> 00:00:22,500
+A lakhatás egyre távolabb kerül, a megélhetés aránytalanul drágul,
+
+7
+00:00:22,780 --> 00:00:25,880
+a biztonság pedig már nem alapállapot, hanem kiváltság.
+
+8
+00:00:25,880 --> 00:00:31,800
+És ilyenkor reflexből ugyanazokat a szavakat használjuk, válság, átmenet, nehéz időszak.
+
+9
+00:00:32,140 --> 00:00:36,680
+Minta csak ki kellene bírni valameddig, és aztán minden visszaállna a régi kerékvágásba.
+
+10
+00:00:37,040 --> 00:00:39,440
+De érdemes felteni a kényelmetlen kérdést.
+
+11
+00:00:39,880 --> 00:00:42,120
+Mi van akkor, ha ez nem egy átmeneti zavar?
+
+12
+00:00:42,460 --> 00:00:46,540
+Mi van akkor, ha maga a kapitalizmus, a rendszer, ami sokáig a jólét szinonimája volt,
+
+13
+00:00:46,900 --> 00:00:49,740
+már nem képes fenntartani a legalapvetőbb ígéreteit sem?
+
+14
+00:00:50,080 --> 00:00:53,780
+Talán eljutottunk egy forduló ponthoz, ahonnan már csak lefelé vezett az út.
+
+15
+00:00:53,780 --> 00:00:56,080
+És ideje alternatívát keresnünk.
+
+16
+00:00:58,960 --> 00:01:03,080
+Mielőtt megértenénk, hogy miért omlik most össze, érdemes egy pillanatra visszalépni,
+
+17
+00:01:03,140 --> 00:01:06,060
+és megnézni, hogy honnan jött, és mi egyáltalán a kapitalizmus.
+
+18
+00:01:06,600 --> 00:01:11,180
+A kapitalizmus számos téfitel ellentétben nem valamiféle amerikai ideológiai export,
+
+19
+00:01:11,540 --> 00:01:13,920
+és nem is egy hirtelen kitalált gazdasági modell.
+
+20
+00:01:14,340 --> 00:01:16,860
+A modern kapitalizmus gyökerei Európában vannak,
+
+21
+00:01:17,120 --> 00:01:19,920
+és nagyon konkrét problémákra adott válaszként jelent meg.
+
+22
+00:01:20,360 --> 00:01:22,760
+A középkor gazdasági rendszere a feudalizmus volt.
+
+23
+00:01:22,760 --> 00:01:27,440
+Ebben a világban a hatalom alapja a föld volt, a társadalom merev rendekre tagolódott,
+
+24
+00:01:27,720 --> 00:01:30,660
+és az emberek többsége nem szabadon választotta meg a munkáját.
+
+25
+00:01:31,180 --> 00:01:37,200
+A paraszt a földhöz volt kötve, a termelés lassú volt, a technológiai fejlődés pedig évszázadokig alig mozdult.
+
+26
+00:01:37,740 --> 00:01:40,440
+Ez a rendszer stabil volt, de rendkívül ineffektív.
+
+27
+00:01:40,860 --> 00:01:44,760
+Kevés árut termelt, nehezen alkalmazkodott, és nem ösztönözte az újítást.
+
+28
+00:01:44,760 --> 00:01:47,860
+A változás a kora újkor határán indult el.
+
+29
+00:01:48,220 --> 00:01:53,100
+A kereskedelem bűvülni kezdett a földrajzi felfedezésekkel, városok nőttek ki a földből,
+
+30
+00:01:53,260 --> 00:01:58,980
+megjelent a pénzgazdaság, a bankrendszer, és egy új társadalmi csoport, a kereskedők és vállalkozók.
+
+31
+00:01:59,380 --> 00:02:01,540
+Ők már nem földből, hanem tőkéből éltek.
+
+32
+00:02:01,940 --> 00:02:06,260
+A gazdaság súlypontja lassan áthelyeződött a földről, a termelésre és a kereskedelemre.
+
+33
+00:02:06,260 --> 00:02:09,740
+Ezt a folyamatot az ipari forradalom csak még jobban felpörgette.
+
+34
+00:02:10,080 --> 00:02:15,320
+A modern kapitalizmus igazi áttörését ugyanis ezt hozta el, de nem Amerikában, hanem Nagy-Britanniában.
+
+35
+00:02:15,660 --> 00:02:21,260
+A 18-19. században a gépesítés, a gyáripar és a tömegtermelés teljesen átalakította a gazdaságot.
+
+36
+00:02:22,280 --> 00:02:26,060
+A kapitalizmus ebben a formájában egyszerűen jobb volt, mint a feudalizmus.
+
+37
+00:02:26,540 --> 00:02:32,420
+Több árut termelt, olcsóbban, gyorsabban, és képes volt eltartani egy robbanásszerűen növekvő népességet.
+
+38
+00:02:32,420 --> 00:02:40,080
+Európában és később Észak-Amerikában ezért szinte mindenhol ez a rendszer vál dominánsá, nem erkölcsi okokból, hanem mert működött.
+
+39
+00:02:40,460 --> 00:02:42,080
+Na de miért volt ennyire hatékony?
+
+40
+00:02:45,220 --> 00:02:49,400
+Fontos megértened, hogy a kapitalizmus nem olyan, mint a liberalizmus vagy a nacionalizmus.
+
+41
+00:02:49,760 --> 00:02:54,340
+Nem egy politikai, erkölcsi, ideológiai rendszer, hanem egy gazdasági gépezet.
+
+42
+00:02:54,680 --> 00:02:59,660
+Egy mechanizmus, aminek megvannak az alkatrészei, a szabályai és a saját belső logikája.
+
+43
+00:02:59,660 --> 00:03:02,500
+Az első és legfontosabb eleme a magántulajdon.
+
+44
+00:03:02,920 --> 00:03:12,200
+A termelés eszközei, a gyárak, a gépek, a föld, az infrastruktúra, később szoftverek és szellemi tulajdon, nem állami vagy közösségi tulajdonban vannak, hanem magánkézben.
+
+45
+00:03:12,680 --> 00:03:19,600
+Ez azt jelenti, hogy közvetlenül azok döntenek a termelésről, akik birtokolják ezeket az eszközöket, nem feltétlenül azok, akik dolgoznak velük.
+
+46
+00:03:20,120 --> 00:03:24,600
+Ez a pont alapvetően különbözteti meg a kapitalizmust minden korábbi gazdasági rendszertől.
+
+47
+00:03:24,600 --> 00:03:35,420
+A feudalizmusban például a termelés alapja a föld volt, amit ugye nem a piac, hanem öröklött jog és társadalmi ranghatározott meg, a munkát pedig nem bérért, hanem kötelezettségből végezték.
+
+48
+00:03:35,640 --> 00:03:36,960
+Minden nagyon kötött volt.
+
+49
+00:03:37,300 --> 00:03:44,960
+A magántulajdon viszont lehetővé teszi a pénz, az érték és a termelőeszközök szabad áramlását, vagyis hát majdnem szabad áramlását.
+
+50
+00:03:45,160 --> 00:03:46,920
+A második elem ugyanis a bérmunka.
+
+51
+00:03:46,920 --> 00:03:54,100
+A kapitalizmus világában az emberek többsége nem bírtokolja a termelés eszközeit, ezért az egyetlen dolog, amit el tud adni, az a munka ideje.
+
+52
+00:03:54,260 --> 00:03:59,700
+A munkavállaló bért kap, a munkáltató pedig a munkából származó érték egy részét profitként megtartja.
+
+53
+00:03:59,960 --> 00:04:01,460
+A harmadik elemünk a profit.
+
+54
+00:04:01,640 --> 00:04:08,800
+A kapitalizmusban nem az önellátás, nem a stabilitás és nem is a társadalmi szükségletek kielégítése az elsődleges cél, hanem a nyereség.
+
+55
+00:04:08,980 --> 00:04:12,340
+A vállalkozás akkor sikeres, ha több pénzt termel, mint amennyit elkölt.
+
+56
+00:04:12,340 --> 00:04:17,180
+Ez a nyereség nem véletlen vagy melléktermék, hanem a rendszer központi motivációja.
+
+57
+00:04:17,400 --> 00:04:20,680
+Profit nélkül nincs beruházás, beruházás nélkül nincs termelés.
+
+58
+00:04:21,100 --> 00:04:22,580
+Ehhez kapcsolódik a verseny.
+
+59
+00:04:23,080 --> 00:04:28,980
+A kapitalizmus feltételezi, hogy sok vállalkozás versenyez egymással a fogyasztókért, a piacért és a munkaerőért.
+
+60
+00:04:29,440 --> 00:04:35,920
+Eméletben ez a verseny kényszeríti ki az alacsonyabb vagy legalábbis reális árakat, a jobb minőséget és a hatékonyságot.
+
+61
+00:04:35,920 --> 00:04:46,000
+Ha egy cég túl drága, túl rossz minőségben gyárt vagy túl kizsákmányoló, akkor a vevő máshova megy, a dolgozó felmond, és a cég alkalmazkodni kényszerül, vagy csődbe megy.
+
+62
+00:04:46,360 --> 00:04:48,680
+Ez lenne a rendszer önszabályozó mechanizmusa.
+
+63
+00:04:48,840 --> 00:04:50,840
+A következő kulcselem a fogyasztás.
+
+64
+00:04:51,200 --> 00:04:53,540
+A kapitalizmus nem működik fogyasztók nélkül.
+
+65
+00:04:53,920 --> 00:04:56,700
+Az emberek nem csak dolgoznak, hanem el is költik a pénzüket.
+
+66
+00:04:57,260 --> 00:05:03,100
+Élelmiszerre, lakhatásra, szolgáltatásokra, majd ha van elég, akkor szórakozásra és státusszimbólumokra.
+
+67
+00:05:03,100 --> 00:05:07,420
+Ez a fogyasztást tartja életben a vállalatokat, és zárja be a körforgást.
+
+68
+00:05:07,900 --> 00:05:11,220
+És itt érünk el a rendszer szívéhez, a visszaforgatáshoz.
+
+69
+00:05:11,640 --> 00:05:18,540
+A profitot nem egyszerűen zsebre teszik, visszakerül a rendszerbe, új gépekbe, nagyobb üzemekbe, több reklámba, hatékonyabb logisztikába.
+
+70
+00:05:18,920 --> 00:05:25,280
+Ez a visszaforgatást teszi lehetővé a növekedést, és ez különbözteti meg a kapitalizmust minden korábbi gazdasági modelltől.
+
+71
+00:05:25,700 --> 00:05:29,160
+Nem statikus, hanem folyamatosan tágulni, növekedni akar.
+
+72
+00:05:29,160 --> 00:05:39,100
+Amíg ez a gép egyensúlyban a tervek szerint működik, tehát van verseny, van fizetőképes kereslet, van mozgást ér a munkavállalóknak, addig a kapitalizmus működni tud.
+
+73
+00:05:39,520 --> 00:05:46,720
+A gond ott kezdődik, amikor a rendszer saját logikája elkezdi lebontani azokat a feltételeket, amik szükségesek a saját működéséhez.
+
+74
+00:05:47,140 --> 00:05:50,140
+És pontosan ez történt az elmúlt fél évszázadban.
+
+75
+00:05:50,140 --> 00:06:00,860
+A második világháború után Európa romokban állt, városok váltak a földel egyenlővé, az ipar megszűnt, generációk haltak meg vagy tűntek el,
+
+76
+00:06:01,280 --> 00:06:07,800
+és mégis ebből a romhalmazból néhány évtized alatt felépült valami, amit később egyszerűen csak úgy hívtunk, hogy normális élet.
+
+77
+00:06:08,300 --> 00:06:13,160
+Nem tökéletes, nem igazságos, de kiszámítható, és a többség számára egyre jobb.
+
+78
+00:06:13,160 --> 00:06:19,580
+És ez volt a kulcs szó. Nyugat-Európában, Észak-Amerikában, de még a keleti blokk peremén is megjelent ugyanaz az ígéret.
+
+79
+00:06:19,920 --> 00:06:24,100
+Ha dolgozol, ha beilleszkedsz, ha csinálod a dolgodat, akkor előrébb jutsz.
+
+80
+00:06:24,360 --> 00:06:27,840
+Nem meggazdagszol, nem leszel elit, de lesz egy kényelmes életed.
+
+81
+00:06:28,180 --> 00:06:32,500
+Lakás, család, munka, nyugdíj, nem kiváltsákként, hanem normaként.
+
+82
+00:06:32,860 --> 00:06:34,500
+Ez volt a kapitalizmus aranykora.
+
+83
+00:06:34,900 --> 00:06:40,260
+Nem azért, mert mindenki boldog volt, hanem mert a rendszer alaplogikája és az emberek érdekei egy irányba mutattak.
+
+84
+00:06:40,260 --> 00:06:44,640
+A cégeknek szükségük volt jól fizetett dolgozókra, mert ők voltak a fogyasztók.
+
+85
+00:06:44,760 --> 00:06:49,180
+A munkavállalóknak volt alkupozíciójuk, mert munkaerőhiány volt, nem munkahelyhiány.
+
+86
+00:06:49,520 --> 00:06:55,320
+Az állam pedig erős volt, mert volt miből adót szedni, és volt társadalmi felhatalmazása arra, hogy vissza is oszza.
+
+87
+00:06:55,820 --> 00:07:02,620
+Ekkor született meg a középosztály, nem mint mai politikai gumicsont és marketingfogalom, hanem mint valódi társadalmi réteg.
+
+88
+00:07:03,020 --> 00:07:06,460
+Emberek, akik nem éltek luxusban, de nem is a túlélés szintjén mozogtak,
+
+89
+00:07:06,460 --> 00:07:11,900
+akik előre tudtak tervezni, akik hitelt vettek fel lakásra úgy, hogy nem egy életre adósodtak el,
+
+90
+00:07:12,280 --> 00:07:15,900
+akik gyereket vállaltak anélkül, hogy az egzisztenciális öngyilkosság lett volna,
+
+91
+00:07:16,340 --> 00:07:19,840
+akik úgy mentek nyugdíjba, hogy nem a teljes elszegényedés várt rájuk.
+
+92
+00:07:20,300 --> 00:07:26,300
+Fontos, ez nem amerikai sajátosság volt, nyugat-német országban, francia országban, a skandináv országokban,
+
+93
+00:07:26,620 --> 00:07:28,580
+de még nálunk is létezett egy verziója.
+
+94
+00:07:28,580 --> 00:07:33,360
+Más keretek között, más politikai rendszerben, de az alapi ígéret ugyanaz volt.
+
+95
+00:07:33,740 --> 00:07:39,640
+Dolgozol és cserébe kapsz egy kiszámítható életet, nem végtelen szabadságot, de minimum stabilitást.
+
+96
+00:07:40,100 --> 00:07:44,520
+Ez az időszak azért fontos, mert megmutatja, hogy a kapitalizmus nem eleve kudarcra ítélt rendszer.
+
+97
+00:07:44,940 --> 00:07:50,260
+Évszázadokon keresztül fejlődést hozott, és igenis volt egy történelmi pillanat, amikor csodásan működött.
+
+98
+00:07:50,580 --> 00:07:53,840
+Amikor a profit nem elszívta, hanem mozgásban tartotta a rendszert.
+
+99
+00:07:53,840 --> 00:07:58,880
+Amikor a növekedés nem önmagáért létezett, hanem együtt járt az életszínvonal emelkedésével.
+
+100
+00:07:59,380 --> 00:08:01,760
+És talán ezért is ragaszkodunk hozzá ennyire.
+
+101
+00:08:02,220 --> 00:08:05,500
+Mert nem egy elmélethez ragaszkodunk, hanem egy idealizált állapothoz,
+
+102
+00:08:05,940 --> 00:08:10,440
+egy kórhoz, amikor úgy tűnt, hogy a rendszer, amiben élünk, az nem ellenünk dolgozik, hanem velünk van.
+
+103
+00:08:10,680 --> 00:08:16,060
+És tényleg elhihettük, hogy a következő generációnak egy kicsit jobb lesz, mint nekünk volt, nem pedig rosszabb.
+
+104
+00:08:16,060 --> 00:08:21,980
+A legtöbb országban ez az ígéret az 50-es évektől a 2010-es évekig aránylag stabilan tartotta magát,
+
+105
+00:08:22,440 --> 00:08:24,880
+de mára valami nagyon-nagyon félre ment.
+
+106
+00:08:25,280 --> 00:08:28,600
+Ez az aranykor nem azért ért véget, mert az emberek megváltoztak volna,
+
+107
+00:08:28,900 --> 00:08:33,460
+hanem azért, mert a rendszer belső logikája lassan elkezdte felőrölni azokat a feltételeket,
+
+108
+00:08:33,820 --> 00:08:36,120
+amik miatt ez az egész egyáltalán működni tudott.
+
+109
+00:08:36,480 --> 00:08:39,000
+És itt kezd igazán érdekessé válni a történet.
+
+110
+00:08:39,000 --> 00:08:48,700
+Az első repedés nem látványos volt, nem egy nagy összeomlás, hanem egy sor, teljesen racionális döntés.
+
+111
+00:08:49,140 --> 00:08:55,600
+Olyan döntések, amik külön-külön mind érthetők voltak, együtt viszont lassan elkezdték kifordítani a rendszert önmagából.
+
+112
+00:08:56,160 --> 00:08:59,740
+A 70-es-80-as évektől kezdve a kapitalizmus szembesült egy problémával.
+
+113
+00:08:59,740 --> 00:09:02,860
+A korábbi modell egyre kevésbé volt hatékony.
+
+114
+00:09:03,260 --> 00:09:06,600
+A bérek magasak voltak, a munkavállalóknak alkupozíciójuk volt,
+
+115
+00:09:06,600 --> 00:09:09,340
+az állam erős volt, a szabályozások pedig szorosak.
+
+116
+00:09:09,460 --> 00:09:13,080
+Ez addig nem gonda még a profit így is nő, de amikor lassulni kezd,
+
+117
+00:09:13,240 --> 00:09:16,000
+a rendszer megteszi azt, ami a természetes következő lépés.
+
+118
+00:09:16,480 --> 00:09:18,380
+Megkeresi az olcsóbb megoldást.
+
+119
+00:09:18,720 --> 00:09:19,960
+Költséget csökkent ugyebár.
+
+120
+00:09:20,420 --> 00:09:22,180
+Ennek a kulcsa pedig a munkaerő volt.
+
+121
+00:09:22,620 --> 00:09:26,000
+Ha drága a dolgozó itt, akkor nem itt kell dolgoztatni.
+
+122
+00:09:26,000 --> 00:09:29,320
+Ha a gyárban a bér túl magas, akkor a gyár mehet máshova.
+
+123
+00:09:29,640 --> 00:09:31,660
+Először csak részben, aztán teljesen.
+
+124
+00:09:32,000 --> 00:09:34,620
+Olyan országokban, ahol az emberek kevesebb bér dolgoznak.
+
+125
+00:09:34,620 --> 00:09:37,940
+Dél-Kelet-Ázsiába, Kelet-Európába, Latin-Amerikába.
+
+126
+00:09:38,320 --> 00:09:41,600
+Oda, ahol ugyanazt a munkát töredékbérért el lehet végeztetni.
+
+127
+00:09:41,980 --> 00:09:44,660
+Nem kellett ehhez gonoszság, elég volt egy Excel tábla.
+
+128
+00:09:45,020 --> 00:09:47,400
+Az oszlop alján nagyon gyorsan kijött, hogy ez megéri.
+
+129
+00:09:47,880 --> 00:09:49,080
+Papíron minden stimmelt.
+
+130
+00:09:49,320 --> 00:09:52,380
+A termelés olcsóbb lett, a profit nőtt, a részvényesek örültek.
+
+131
+00:09:52,580 --> 00:09:54,700
+Azonnal a fogyasztó sem érzékelt semmit.
+
+132
+00:09:54,840 --> 00:09:57,640
+A boltban ugyanúgy ott volt az áru, sőt, gyakran olcsóbb lett,
+
+133
+00:09:57,740 --> 00:09:59,340
+és ő még többet tudott vásárolni.
+
+134
+00:09:59,340 --> 00:10:04,400
+A rendszer tehát látszólag tovább működött, csak hogy közben valami alapvető dolog elcsúszott.
+
+135
+00:10:04,820 --> 00:10:09,420
+A termelés egyre messzebb került attól a társadalomtól, amelyiknek eladta az árut.
+
+136
+00:10:09,820 --> 00:10:14,900
+A gyár már nem ott volt, ahol a vevő élt, a munkahely már nem ott volt, ahol a fogyasztás történt.
+
+137
+00:10:15,260 --> 00:10:17,580
+A két oldal elszakadt egymástól.
+
+138
+00:10:18,060 --> 00:10:21,180
+Ennek az ára nem azonnal jelent meg, hanem lassan évtizedek alatt.
+
+139
+00:10:21,540 --> 00:10:26,200
+A bérek elkezdtek stagnálni, nem zuhantak, nem omlottak össze, csak nem nőttek tovább.
+
+140
+00:10:26,200 --> 00:10:29,940
+Közben viszont az árak igen. Itt most nyilván reálbérekről van szó.
+
+141
+00:10:30,060 --> 00:10:34,080
+A profit nőtt, de nem lefelé csorgott, hanem felfelé koncentrálódott.
+
+142
+00:10:34,400 --> 00:10:38,660
+A rendszer egyre több értéket termelt, de az egyre kevésbé az embereknél landolt,
+
+143
+00:10:38,780 --> 00:10:41,200
+és egyre kevésbé fizették ki, mint munkabér.
+
+144
+00:10:41,680 --> 00:10:46,540
+Ez volt az a pont, ahol a kapitalizmus logikája először fordult szembe a saját korábbi ígéreteivel.
+
+145
+00:10:46,980 --> 00:10:50,240
+Mert az aranykorban a dolgozó egyszerre volt munkavállaló és fogyasztó,
+
+146
+00:10:50,620 --> 00:10:52,780
+most viszont egyre inkább csak fogyasztó maradt.
+
+147
+00:10:52,780 --> 00:10:56,580
+Persze alkalmazott maradt, viszont a munkahelyek máshol jöttek létre,
+
+148
+00:10:56,880 --> 00:10:59,080
+a bérek máshol nőttek, vagy nem nőttek,
+
+149
+00:10:59,420 --> 00:11:02,160
+a profit pedig megint egy másik helyen koncentrálódott.
+
+150
+00:11:02,440 --> 00:11:04,760
+Ettől kezdve a keresletet nem a bérek növekedése,
+
+151
+00:11:05,040 --> 00:11:08,740
+hanem a hitel, az eladósodás és az állandó árverseny tartotta fenn.
+
+152
+00:11:09,140 --> 00:11:12,400
+És ez gyönyörűen látszik minden reálbértábrázoló grafikonon,
+
+153
+00:11:12,720 --> 00:11:15,780
+hasonlítsuk azt a lakásárakhoz, a termelékenységhez, vagy bármihez.
+
+154
+00:11:15,780 --> 00:11:22,540
+Az Egyesült Államokban a reálbérek a globalizáció beindulásával a 70-es évek közepén gyakorlatilag megálltak.
+
+155
+00:11:22,720 --> 00:11:24,220
+És a mai napig alig nőttek.
+
+156
+00:11:24,440 --> 00:11:28,520
+Itt tök jól látható a bizonyítéka annak, hogy mikor jött létre ez a törés a rendszerben.
+
+157
+00:11:28,700 --> 00:11:30,700
+De fontos, hogy ekkor még nem omlott össze semmi.
+
+158
+00:11:31,000 --> 00:11:33,740
+Nem volt forradalom, nem volt rendszerkritika a fősodorban,
+
+159
+00:11:34,060 --> 00:11:37,420
+a gazdaság nőtt, a GDP emelkedett, a tőzsdék mentek felfelé,
+
+160
+00:11:37,700 --> 00:11:38,860
+a számok jól néztek ki,
+
+161
+00:11:39,200 --> 00:11:43,200
+csak éppen az emberek élete innentől nem követte arányosan ezt a növekedést.
+
+162
+00:11:45,780 --> 00:11:50,220
+Ami a rendszer széteséséhez vezet, és amiről eddig direkt nem beszéltem, a növekedés.
+
+163
+00:11:50,500 --> 00:11:53,580
+A kapitalizmusban a profit nem csak végcél, hanem feltétel is.
+
+164
+00:11:53,960 --> 00:11:57,760
+Ebben a gazdasági modellben a vállalat nem csak azért termel profitot, hogy nyerjen,
+
+165
+00:11:58,120 --> 00:12:01,220
+hanem azért, mert ebből tudja finanszírozni a következő lépést.
+
+166
+00:12:01,540 --> 00:12:06,440
+A fejlesztést, az új gépeket, az automatizálást, bármit csak hatékonyságot növeljen.
+
+167
+00:12:06,900 --> 00:12:09,740
+Ha ezt nem teszi meg, a versenytársai megteszik helyette,
+
+168
+00:12:10,060 --> 00:12:12,040
+és előbb-utóbb kiszorítják a piacról.
+
+169
+00:12:12,040 --> 00:12:16,300
+A rendszer tehát nem jutalmazza azt, aki stabilan, változatlan szinten működik,
+
+170
+00:12:16,600 --> 00:12:19,160
+csak azt, aki gyorsan fejlődik, olcsóbban termel,
+
+171
+00:12:19,400 --> 00:12:23,720
+és egyre nagyobb szeletet hasít ki a piacból, vagy növeli a teljes piaca méretét.
+
+172
+00:12:24,160 --> 00:12:27,660
+A kapitalizmusban tehát a növekedés nem választás, hanem kényszer.
+
+173
+00:12:27,920 --> 00:12:32,220
+Egy cég számára a versenytársaktól való lemaradás, lehet egy lassú visszaesés,
+
+174
+00:12:32,320 --> 00:12:33,680
+de lehet egy gyors zuhanás is.
+
+175
+00:12:33,960 --> 00:12:35,600
+A lényeg, hogy a halálhoz vezet.
+
+176
+00:12:35,920 --> 00:12:38,000
+Először még csak csökken a piaci részesedés,
+
+177
+00:12:38,000 --> 00:12:41,620
+és aztán elromlik az árverseny, majd jöhet a csőd, vagy a felvásárlás.
+
+178
+00:12:42,040 --> 00:12:45,060
+A kapitalizmus logikája tehát nem az, hogy legyél elég jó,
+
+179
+00:12:45,320 --> 00:12:47,540
+hanem az, hogy legyél mindig jobb, mint tegnap.
+
+180
+00:12:47,900 --> 00:12:49,660
+És ez egy óriási probléma.
+
+181
+00:12:50,120 --> 00:12:53,680
+Ez a mechanizmus feltételezi, hogy a piac képes ezt a növekedést felszívni,
+
+182
+00:12:53,960 --> 00:12:56,620
+hogy mindig lesz új vevő, új igény, új kereslet.
+
+183
+00:12:57,100 --> 00:12:58,600
+Ez működött egy ideig.
+
+184
+00:12:59,000 --> 00:13:01,500
+Amíg iparosodó társadalmak voltak a középpontban,
+
+185
+00:13:01,500 --> 00:13:06,200
+amíg tömegek jutottak először hűtőhöz, mosógéphez, autóhoz, lakáshoz,
+
+186
+00:13:06,520 --> 00:13:08,920
+ott a növekedés mögött valódi szükségletek álltak.
+
+187
+00:13:09,320 --> 00:13:11,740
+De mi van akkor, amikor egy társadalom telítődik?
+
+188
+00:13:12,120 --> 00:13:14,500
+A logika nem változik meg, csak a módszer.
+
+189
+00:13:14,880 --> 00:13:17,120
+Ha már nem lehet több terméket eladni több embernek,
+
+190
+00:13:17,300 --> 00:13:19,820
+akkor ugyanazoknak az embereknek kell gyakrabban eladni.
+
+191
+00:13:20,240 --> 00:13:22,180
+Nem azért, mert hirtelen pazarlóbbak lettek,
+
+192
+00:13:22,460 --> 00:13:24,200
+hanem mert a rendszer nem tud megállni.
+
+193
+00:13:24,620 --> 00:13:26,480
+A beruházásoknak meg kell térülniük,
+
+194
+00:13:26,480 --> 00:13:27,740
+a gyáraknak menniük kell,
+
+195
+00:13:28,020 --> 00:13:30,040
+a részvény árfolyamoknak nőniük kell,
+
+196
+00:13:30,380 --> 00:13:32,500
+akkor is, ha a valós igény ezt már nem indokolja.
+
+197
+00:13:32,920 --> 00:13:34,920
+És itt válik a növekedés öncélúvá.
+
+198
+00:13:35,300 --> 00:13:37,100
+A termékek élettartáma lerövidül,
+
+199
+00:13:37,380 --> 00:13:39,240
+nem technológiai szükségszerűségből,
+
+200
+00:13:39,320 --> 00:13:40,820
+hanem gazdasági kényszerből.
+
+201
+00:13:41,180 --> 00:13:42,660
+A javítás háttérbe szorul,
+
+202
+00:13:42,920 --> 00:13:44,840
+mert nem szolgálja a forgalomnövekedést.
+
+203
+00:13:45,240 --> 00:13:46,680
+Egyre több terméknél nem véletlen,
+
+204
+00:13:46,760 --> 00:13:49,260
+hogy a szétszerelés nehéz, az alkatrész nem elérhető,
+
+205
+00:13:49,540 --> 00:13:51,860
+a szervíz drága, vagy egyszerűen nem is létezik.
+
+206
+00:13:51,860 --> 00:13:53,800
+A gazdasági üzenet világos.
+
+207
+00:13:54,220 --> 00:13:55,520
+Ne javíts, cserélj!
+
+208
+00:13:55,840 --> 00:13:57,380
+És ehhez mi is alkalmazkodtunk,
+
+209
+00:13:57,660 --> 00:13:59,740
+mert egy olcsó, gyorsan elérhető terméket
+
+210
+00:13:59,740 --> 00:14:01,660
+kényelmesebb kidobni és újat venni,
+
+211
+00:14:01,940 --> 00:14:04,560
+mint időt, energiát és pénzt áldozni a javításra.
+
+212
+00:14:05,040 --> 00:14:07,660
+Így a tartóság például eltűnik, mint érték.
+
+213
+00:14:07,740 --> 00:14:10,040
+A javítás, mint opció fokozatosan kiszorul,
+
+214
+00:14:10,520 --> 00:14:13,160
+mert egyszerűen nem illeszkedik a gazdaság logikájába.
+
+215
+00:14:13,780 --> 00:14:16,480
+Ide kapcsolnám a marketinget, ami olaj a tűzre.
+
+216
+00:14:16,480 --> 00:14:19,860
+A reklámok egyre több esetben nem meglévő igényeket szolgálnak ki,
+
+217
+00:14:19,920 --> 00:14:21,280
+hanem új vágyakat gyártanak,
+
+218
+00:14:21,580 --> 00:14:23,780
+sokszor olyan termékekhez, amik funkcionálisan
+
+219
+00:14:23,780 --> 00:14:25,860
+alig adnak hozzá bármit az életünkhöz.
+
+220
+00:14:26,360 --> 00:14:28,540
+A hangsúly nem azon van, hogy mire van szükséged,
+
+221
+00:14:28,800 --> 00:14:32,020
+hanem azon, hogy amit használsz, az már régi, lassú vagy elavult.
+
+222
+00:14:32,460 --> 00:14:34,980
+A fogyasztás így nem döntés, hanem reflex lesz.
+
+223
+00:14:35,280 --> 00:14:36,760
+Ez tartja életben a növekedést,
+
+224
+00:14:37,040 --> 00:14:40,020
+hiszen mindig van egy új modell, egy új funkció, egy új verzió,
+
+225
+00:14:40,120 --> 00:14:41,740
+amit nem azért akarsz, mert kell,
+
+226
+00:14:41,740 --> 00:14:44,380
+hanem mert elhitetik veled, hogy lemaradsz nélküle.
+
+227
+00:14:44,600 --> 00:14:46,940
+Ez a videó a Rejoj támogatásával jött létre,
+
+228
+00:14:47,100 --> 00:14:49,620
+akik szerintem tökéletes szponzorai ennek a témának,
+
+229
+00:14:49,840 --> 00:14:52,160
+mert hogy szembe mennek mindazzal, amit épp elmondtam.
+
+230
+00:14:52,340 --> 00:14:55,320
+A Rejoj felújított, bevizsgált használt készülékeket ad el,
+
+231
+00:14:55,760 --> 00:14:58,540
+telefonokat, laptopokat, tableteket, okosórákat.
+
+232
+00:14:59,020 --> 00:15:03,000
+Mint cég, kiveszik a bizonytalanságot a használt készülékek vásárlásából,
+
+233
+00:15:03,140 --> 00:15:05,120
+miközben egy csomó pénzt megspórolnak neked.
+
+234
+00:15:05,120 --> 00:15:10,860
+Mi a családban például már évek óta messze a bolti ár alatt vásárolunk tőlük tökéletes állapotú iPhone-okat.
+
+235
+00:15:10,980 --> 00:15:11,320
+Hogyan?
+
+236
+00:15:11,680 --> 00:15:17,440
+Hát úgy, hogy a Rejojnál minden készülék végig megy egy több tucat lépéses ellenőrzési folyamaton a saját szervizükben.
+
+237
+00:15:17,860 --> 00:15:19,180
+Nem csak bekapcsolják és kész,
+
+238
+00:15:19,420 --> 00:15:23,040
+hanem megnézik a hardvert, a funkciókat, az akkumulátort, tényleg mindent.
+
+239
+00:15:23,400 --> 00:15:25,320
+Az aksik állapota is mindig ellenőrzött,
+
+240
+00:15:25,600 --> 00:15:28,060
+nem az az elhasznált délutára lemerülős cucc.
+
+241
+00:15:28,400 --> 00:15:29,720
+De még garanciát is kapsz,
+
+242
+00:15:29,720 --> 00:15:32,940
+szóval azon se kell stresszelni, hogy mi lesz, ha valami mégis megadja magát.
+
+243
+00:15:33,460 --> 00:15:36,060
+Nem akarok álszent lenni, nem azt mondom, hogy ne fogyasszunk,
+
+244
+00:15:36,340 --> 00:15:38,140
+de igenis fontos a fenntarthatóság,
+
+245
+00:15:38,220 --> 00:15:41,660
+és nem kell megfizetni egy mesterségesen felfújt újdonságfelárat.
+
+246
+00:15:41,940 --> 00:15:43,880
+Nézz szét a Rejoj.hu-nak kínálatban,
+
+247
+00:15:44,000 --> 00:15:48,600
+ahol két év garanciával találsz újszerű okostelefont, tabletet, laptopot és okosórát,
+
+248
+00:15:48,980 --> 00:15:51,960
+de ha eladnád a régi készüléked, azt is megteheted a Rejoj-on.
+
+249
+00:15:52,380 --> 00:15:56,500
+További 4000 forint kedvezményért pedig használd a 14000 kuponkódot.
+
+250
+00:15:56,500 --> 00:15:59,440
+Visszakanyarodva a marketingre, a folyamatos ingeráradat,
+
+251
+00:15:59,520 --> 00:16:01,520
+amikor nem olyan cégektől kapod, mint a Rejoj,
+
+252
+00:16:01,760 --> 00:16:03,520
+nem feltétlenül a jobb életet célozza,
+
+253
+00:16:03,800 --> 00:16:06,600
+hanem azt, hogy a termelés és az eladás akkor se álljon le,
+
+254
+00:16:06,720 --> 00:16:09,280
+amikor a valós szükségletek már régen telítődtek.
+
+255
+00:16:09,480 --> 00:16:11,840
+Fontos megérteni, hogy ez nem egy gonosz döntéssorozat,
+
+256
+00:16:12,100 --> 00:16:13,920
+hanem egy zárt logika következménye.
+
+257
+00:16:14,260 --> 00:16:17,400
+Egy olyan rendszeri, ami csak akkor stabil, ha folyamatosan tágul.
+
+258
+00:16:17,720 --> 00:16:20,420
+Amikor ez a tágulás már nem fér bele a valóság kereteibe,
+
+259
+00:16:20,420 --> 00:16:23,460
+a növekedést mesterséges eszközökkel kell fenntartani.
+
+260
+00:16:23,800 --> 00:16:26,420
+Hitellel, eladósodással, státusszorongással
+
+261
+00:16:26,960 --> 00:16:29,340
+és egyre agresszívebb fogyasztás ösztönzéssel.
+
+262
+00:16:29,860 --> 00:16:32,700
+A túltermelés tehát nem hiba a rendszerben, hanem tünet.
+
+263
+00:16:33,060 --> 00:16:34,960
+Annak a jele, hogy a kapitalizmus eljutott oda,
+
+264
+00:16:35,060 --> 00:16:37,280
+ahol a saját működéséhez szükséges növekedést,
+
+265
+00:16:37,660 --> 00:16:40,440
+már nem a társadalom valós igényeiből tudja fenntartani.
+
+266
+00:16:40,860 --> 00:16:43,560
+Egyszerűen önmaga fenntartásáért zajlik minden.
+
+267
+00:16:43,820 --> 00:16:45,240
+Ez pedig azért forduló pont,
+
+268
+00:16:45,240 --> 00:16:48,040
+mert innentől kezdve a rendszer nem kifelé terjeszkedik,
+
+269
+00:16:48,040 --> 00:16:49,860
+hanem befelé kezd el feszülni.
+
+270
+00:16:53,800 --> 00:16:55,620
+Jogosan merülhet fel benned a kérdés,
+
+271
+00:16:55,700 --> 00:16:58,760
+hogy mindezek a hatékonytalanságok miért létezhetnek?
+
+272
+00:16:59,180 --> 00:17:01,180
+Miért gyárthat mindenki egyre olcsóbban,
+
+273
+00:17:01,260 --> 00:17:03,920
+egyre rosszabb minőségben, egyre rövidebb élettartamra?
+
+274
+00:17:04,260 --> 00:17:05,280
+Hiszen nem az volt a lényeg,
+
+275
+00:17:05,340 --> 00:17:07,740
+hogy a piac kiszűri azt, aki rosszabbul teljesít?
+
+276
+00:17:08,220 --> 00:17:10,580
+De igen, a kapitalizmus egyik legfontosabb
+
+277
+00:17:10,580 --> 00:17:13,160
+önvédelmi mechanizmusa mindig is a verseny volt.
+
+278
+00:17:13,160 --> 00:17:15,900
+Ha egy cég túl drága lett, jött egy olcsóbb,
+
+279
+00:17:16,060 --> 00:17:18,020
+ha romlott a minőség, megjelent egy jobb.
+
+280
+00:17:18,320 --> 00:17:19,820
+Ha kizsigerelte a dolgozóit,
+
+281
+00:17:19,980 --> 00:17:22,060
+elvesztette őket a konkurenciával szemben.
+
+282
+00:17:22,480 --> 00:17:25,300
+A szereplők rákényszerítették egymást a javulásra.
+
+283
+00:17:25,720 --> 00:17:27,440
+A rendszer valódi válsága ott kezdődik,
+
+284
+00:17:27,520 --> 00:17:29,040
+amikor ez a kényszer eltűnik.
+
+285
+00:17:29,540 --> 00:17:32,120
+Ma egyre több iparákban a profit már nem abból származik,
+
+286
+00:17:32,200 --> 00:17:34,780
+hogy valaki hatékonyabban, jobban vagy olcsóbban dolgozik,
+
+287
+00:17:35,120 --> 00:17:37,100
+hanem abból, hogy lezárja a piacát.
+
+288
+00:17:37,500 --> 00:17:39,580
+Nem fejleszt, hanem felvásárol.
+
+289
+00:17:39,580 --> 00:17:42,240
+Nem jobb akar lenni, hanem egyedül akar maradni,
+
+290
+00:17:42,520 --> 00:17:43,820
+hiszen akkor bármit megtehet,
+
+291
+00:17:43,820 --> 00:17:47,360
+például azt is, hogy egyre silányabb terméket ad el neked egyre drágábban.
+
+292
+00:17:47,840 --> 00:17:51,340
+Ez a logika teljesen más, mint amit a tankönyvi kapitalizmus ígért.
+
+293
+00:17:51,780 --> 00:17:54,420
+Ott a profit annak a jele, hogy valaki jól csinált valamit,
+
+294
+00:17:54,840 --> 00:17:57,600
+de aki elég nagy, az veszteségesen működhet addig,
+
+295
+00:17:57,660 --> 00:17:59,180
+amíg a kisebbek el nem fogynak.
+
+296
+00:17:59,620 --> 00:18:02,780
+A befektetők nem azért finanszíroznak éveken át mínuszos cégeket,
+
+297
+00:18:02,840 --> 00:18:03,740
+mert hisznek bennük,
+
+298
+00:18:03,740 --> 00:18:06,180
+hanem mert tudják, hogy ha a konkurencia eltűnik,
+
+299
+00:18:06,300 --> 00:18:08,020
+később bármit meg lehet tenni.
+
+300
+00:18:08,260 --> 00:18:10,960
+Ezért látjuk mára azt, hogy egyre több vállalkozás nem arra épül,
+
+301
+00:18:11,040 --> 00:18:12,240
+hogy hosszú távon működjön,
+
+302
+00:18:12,540 --> 00:18:14,040
+hanem arra, hogy felvásárolják.
+
+303
+00:18:14,500 --> 00:18:16,660
+Nem az a siker, hogyha stabil céget hozol létre,
+
+304
+00:18:16,960 --> 00:18:19,160
+hanem ha elég nagyra nősze ahhoz, hogy megvegyenek.
+
+305
+00:18:19,560 --> 00:18:22,800
+A piac nem kis és közepes vállalkozások által szerveződik,
+
+306
+00:18:22,880 --> 00:18:25,260
+hanem fentről meg a cégek által záródik le.
+
+307
+00:18:25,260 --> 00:18:27,000
+És minél inkább záródik,
+
+308
+00:18:27,080 --> 00:18:29,380
+annál kevésbé számít a fogyasztó vagy a dolgozó.
+
+309
+00:18:29,640 --> 00:18:32,580
+A monopóliumok viszont nem csak drágábbak és kényelmesebbek,
+
+310
+00:18:32,940 --> 00:18:34,920
+sokkal, sokkal veszélyesebbek annál.
+
+311
+00:18:35,400 --> 00:18:37,240
+Ha egy iparágat néhány szereplő ural,
+
+312
+00:18:37,400 --> 00:18:38,720
+akkor nincs hova menned.
+
+313
+00:18:39,080 --> 00:18:41,640
+Ha ott dolgozol, azon a területen van szaktudásod,
+
+314
+00:18:41,760 --> 00:18:43,200
+nincs valódi bértárgyalás.
+
+315
+00:18:43,520 --> 00:18:45,920
+Ha ott vásárolsz, nincs valódi árverseny.
+
+316
+00:18:46,260 --> 00:18:48,320
+A rendszer elveszíti azt a tulajdonságát,
+
+317
+00:18:48,400 --> 00:18:50,360
+amitől az aranykorban működőképes volt,
+
+318
+00:18:50,660 --> 00:18:51,700
+az önkorrekciót.
+
+319
+00:18:51,700 --> 00:18:55,000
+A kapitalizmus addig javítja ki önmagát, amíg van verseny,
+
+320
+00:18:55,300 --> 00:18:57,180
+de ha a piac tele van kapuőrökkel,
+
+321
+00:18:57,300 --> 00:18:59,880
+akik mindent felvásárolnak és ellehetetlenítenek,
+
+322
+00:19:00,200 --> 00:19:02,260
+ha a belépés túl drága, kockázatos
+
+323
+00:19:02,260 --> 00:19:04,420
+és minden út ugyanahoz a pár céghez vezet,
+
+324
+00:19:04,840 --> 00:19:06,300
+akkor véget ért a javulás.
+
+325
+00:19:06,720 --> 00:19:09,520
+Csak stagnálás, drágulás és romló minőség van,
+
+326
+00:19:09,880 --> 00:19:11,820
+miközben a számok papíron tovább nőnek
+
+327
+00:19:11,820 --> 00:19:14,060
+és azt hiszük, hogy a gazdaság jól működik.
+
+328
+00:19:14,360 --> 00:19:16,860
+A szomorú hírem, hogy mára szinte minden iparágban
+
+329
+00:19:16,860 --> 00:19:18,380
+monopóliumok alakultak ki.
+
+330
+00:19:18,380 --> 00:19:20,740
+Hiába látsz rengeteg márkát a polcon,
+
+331
+00:19:20,900 --> 00:19:23,440
+valójában pár cég tulajdonában van minden.
+
+332
+00:19:23,680 --> 00:19:25,720
+Fontos viszont megértened, hogy ez nem véletlen
+
+333
+00:19:25,720 --> 00:19:28,560
+és nem is valami új 21. századi eltorzulás.
+
+334
+00:19:28,960 --> 00:19:31,620
+A kapitalizmus történetében ez egy visszatérő minta.
+
+335
+00:19:32,080 --> 00:19:33,840
+Amikor egy gazdasági ciklus elindul,
+
+336
+00:19:33,960 --> 00:19:35,860
+mindig soka szereplő, éles a verseny
+
+337
+00:19:35,860 --> 00:19:36,960
+és gyors az innováció.
+
+338
+00:19:37,460 --> 00:19:39,020
+De ahogy telnek az évek a verseny,
+
+339
+00:19:39,100 --> 00:19:41,000
+természetes módon elkezd eltűnni.
+
+340
+00:19:41,400 --> 00:19:43,820
+A verseny ugyanis drága, kockázatos,
+
+341
+00:19:43,920 --> 00:19:45,440
+folyamatos fejlesztést igényel.
+
+342
+00:19:45,440 --> 00:19:48,600
+Egy bizonyos méret fölött pedig egyszerűen nem ez a legjobb módja
+
+343
+00:19:48,600 --> 00:19:49,640
+a profitszerzésnek.
+
+344
+00:19:50,020 --> 00:19:52,740
+Sokkal hatékonyabb megoldás felvásárolni a riválist,
+
+345
+00:19:53,020 --> 00:19:54,880
+kivárnia még elfogy a többiek pénze,
+
+346
+00:19:55,160 --> 00:19:56,440
+vagy olyan piaci pozíciót kialakítani,
+
+347
+00:19:57,200 --> 00:19:59,000
+ahova új belépők nem tudnak bejutni.
+
+348
+00:19:59,400 --> 00:20:01,840
+Amint ez technikailag és jogilag lehetővé válik,
+
+349
+00:20:02,120 --> 00:20:04,320
+a tőke ösztönösen ebbe az irányba mozdul.
+
+350
+00:20:04,620 --> 00:20:05,860
+Sajnos ez a logikus.
+
+351
+00:20:06,220 --> 00:20:08,640
+Ez történt már a 19. század végén is.
+
+352
+00:20:09,040 --> 00:20:10,900
+Az amerikai iparosadás fénykorában
+
+353
+00:20:10,900 --> 00:20:13,680
+ugyanígy alakultak ki az óriás vállalatok az olaiparban,
+
+354
+00:20:13,780 --> 00:20:15,360
+a vasútban, az acéliparban.
+
+355
+00:20:15,780 --> 00:20:17,180
+Akkor is ugyanez volt a minta.
+
+356
+00:20:17,620 --> 00:20:18,680
+Eleinte vadverseny,
+
+357
+00:20:18,780 --> 00:20:20,960
+majd koncentráció, végül monopóliumok.
+
+358
+00:20:21,280 --> 00:20:25,200
+Ez pedig a történelemben mindig olyan vadválságokkal tüzdelt időszakot hozott,
+
+359
+00:20:25,540 --> 00:20:28,920
+amikor a rendszer saját túlkapásai ellen végül be kellett avatkozni.
+
+360
+00:20:30,060 --> 00:20:30,620
+Antitrösztörvényekkel,
+
+361
+00:20:30,720 --> 00:20:31,620
+feldarabolással,
+
+362
+00:20:31,720 --> 00:20:32,640
+szabályozással.
+
+363
+00:20:32,900 --> 00:20:35,060
+Ami ma más, az nem a jelenség,
+
+364
+00:20:35,140 --> 00:20:36,000
+hanem a környezet.
+
+365
+00:20:36,000 --> 00:20:38,920
+A modern gazdaságban sok termék nem egyszerű árucik,
+
+366
+00:20:39,000 --> 00:20:40,720
+hanem technológiai infrastruktúra.
+
+367
+00:20:41,100 --> 00:20:43,480
+Platformok, ökoszisztémák, szabványok.
+
+368
+00:20:43,620 --> 00:20:45,620
+Ha egyszer kialakul egy domináns pozíció,
+
+369
+00:20:45,800 --> 00:20:49,320
+onnantól nem csak olcsóbbnak vagy jobbnak kellene lenni egy újbelépőnek,
+
+370
+00:20:49,400 --> 00:20:50,800
+hanem kompatibilisnek is.
+
+371
+00:20:51,220 --> 00:20:54,480
+Hálózatot kell építeni, felhasználói tömeget áthozni,
+
+372
+00:20:54,960 --> 00:20:56,920
+ami egy óriási belépési korlát.
+
+373
+00:20:57,300 --> 00:20:59,420
+A technológiai szektor formálisan nyitott,
+
+374
+00:20:59,580 --> 00:21:00,800
+gyakorlatilag viszont zárt.
+
+375
+00:21:01,240 --> 00:21:03,000
+Ehhez jön hozzá a pénzügyi háttér.
+
+376
+00:21:03,000 --> 00:21:06,120
+Az elmúlt évtizedekben a nagy cégek soha nem látott mennyiségű
+
+377
+00:21:06,120 --> 00:21:07,540
+olcsó tőkéhez jutottak.
+
+378
+00:21:07,900 --> 00:21:10,600
+Ez lehetővé tette, hogy éveken át vesztességgel működjenek,
+
+379
+00:21:10,660 --> 00:21:12,420
+csak azért, hogy kiszorítsák a versenyt.
+
+380
+00:21:12,640 --> 00:21:15,160
+Egy kis cég nem engedheti meg magának, hogy mínuszos legyen,
+
+381
+00:21:15,460 --> 00:21:16,720
+egy óriási viszont igen.
+
+382
+00:21:17,060 --> 00:21:19,460
+Így a verseny már az elején torszpályán indul.
+
+383
+00:21:20,020 --> 00:21:23,160
+És amikor a monopóliumok kialakulnak, a ciklus bezárul.
+
+384
+00:21:23,580 --> 00:21:26,500
+A profit többé nem hatékonyságból jön, hanem a pozícióból.
+
+385
+00:21:26,500 --> 00:21:30,100
+Ezek a nagy cégek már nem azért keresnek jól, mert tényleg jobban működnek,
+
+386
+00:21:30,220 --> 00:21:31,800
+hanem mert nincsen alternatíva.
+
+387
+00:21:32,180 --> 00:21:35,000
+Romlik a minőség, lassul az innováció, nőnek az árak,
+
+388
+00:21:35,320 --> 00:21:38,100
+de a rendszer mégis fennmarad, mert nincs ami kimozdítsa.
+
+389
+00:21:38,560 --> 00:21:41,720
+A kapitalizmus tehát időről időre saját maga ellen fordul.
+
+390
+00:21:42,080 --> 00:21:45,600
+A versenyből koncentráció lesz, a koncentrációból instabilitás,
+
+391
+00:21:45,900 --> 00:21:47,660
+az instabilitásból pedig válság.
+
+392
+00:21:48,080 --> 00:21:51,420
+És csak akkor nyúlnak bele kívülről, amikor már láthatóvá válik,
+
+393
+00:21:51,500 --> 00:21:53,280
+hogy a rendszer önmagától nem javul meg.
+
+394
+00:21:53,280 --> 00:21:58,040
+A kérdés ma nem az, hogy volt-e már ilyen, hanem az, hogy lesz-e most is olyan válság,
+
+395
+00:21:58,100 --> 00:22:01,800
+ami kikényszeríti a korrekciót, vagy ezúttal a korrekció marad el,
+
+396
+00:22:01,900 --> 00:22:04,800
+és a kapitalizmus, mint rendszer végleg összeomlik.
+
+397
+00:22:05,300 --> 00:22:08,000
+Hiszen egyértelmű, hogy elértük a válságos állapotot.
+
+398
+00:22:08,400 --> 00:22:10,760
+Amikor egy teljes gazdasági rendszer valóban bajban van,
+
+399
+00:22:10,820 --> 00:22:14,100
+az nem a tősdél látszik először, hanem a mindennapi életünkön.
+
+400
+00:22:14,560 --> 00:22:17,260
+Olyan dolgok kezdenek el szétesni, amikről korábban azt hittük,
+
+401
+00:22:17,260 --> 00:22:21,360
+hogy maguktól értetődőek, és éppen ezért sokáig fel sem tűnik, hogy baj van.
+
+402
+00:22:21,760 --> 00:22:25,060
+Mert minden egyes elem külön-külön még megmagyarázhatónak tűnik.
+
+403
+00:22:25,420 --> 00:22:28,860
+Külön-külön szinte minden problémáról készült is már videó a csatornán.
+
+404
+00:22:29,300 --> 00:22:30,440
+Kezdjük a lakhatással.
+
+405
+00:22:30,840 --> 00:22:34,420
+A lakás korábban nem pusztán egy ingatlan volt, hanem az élet egyik alappillére.
+
+406
+00:22:34,760 --> 00:22:36,860
+Egy stabil pont, amivel lehetett tervezni.
+
+407
+00:22:37,200 --> 00:22:38,900
+Családot, munkát, jövőt.
+
+408
+00:22:38,900 --> 00:22:43,380
+Viszont a lakhatás egyre inkább kikerül ebből a szerepből, és befektetési eszközé vált.
+
+409
+00:22:43,720 --> 00:22:48,080
+Nem azért drága, mert az embereknek több pénze van, hanem mert más logika szerint működik.
+
+410
+00:22:48,400 --> 00:22:52,860
+Nem azok vásárolják, akik benne akarnak élni, hanem azok, akik hozamot keresnek.
+
+411
+00:22:53,220 --> 00:22:57,680
+Az árak elszakadtak a bérektől, és ezzel együtt elszakadtak az életünktől is.
+
+412
+00:22:58,060 --> 00:23:01,680
+A saját lakás így már nem egy életútállomás, hanem lassan oda jutunk,
+
+413
+00:23:01,760 --> 00:23:04,300
+hogy kivétel, szerencse vagy öröklés kérdése.
+
+414
+00:23:04,300 --> 00:23:07,160
+Ezzel párhuzamosan az adósság szerepe is megváltozott.
+
+415
+00:23:07,540 --> 00:23:09,020
+Régen a hitel egy eszköz volt.
+
+416
+00:23:09,520 --> 00:23:11,820
+Áthidalás, befekteté és gyorsítás.
+
+417
+00:23:12,120 --> 00:23:15,540
+Ma világszerte, emberek százmilliói számára mankó.
+
+418
+00:23:15,760 --> 00:23:18,440
+Nem előrébb viszi az életünket, hanem fenntartja azt.
+
+419
+00:23:18,800 --> 00:23:21,320
+Az emberek nem azért vesznek fel hitelt, hogy feljebb lépjenek,
+
+420
+00:23:21,560 --> 00:23:23,060
+hanem hogy ne csúszzanak lejjebb.
+
+421
+00:23:23,360 --> 00:23:26,240
+Hiszen a fogyasztásuk szintjét már rég nem a jövedelem tartja fent,
+
+422
+00:23:26,380 --> 00:23:27,680
+hanem sajnos a hitelek.
+
+423
+00:23:27,680 --> 00:23:32,140
+Ez rövid távon működik, hosszú távon viszont törékennyé teszi az egész rendszert,
+
+424
+00:23:32,480 --> 00:23:36,440
+hiszen a vásárlóerő nem valódi, hanem egy előre elköltött jövő,
+
+425
+00:23:36,620 --> 00:23:38,120
+és sajnos egyre nagyobb arányban.
+
+426
+00:23:38,640 --> 00:23:40,340
+A nyugdíjtörténete nagyon hasonló.
+
+427
+00:23:40,680 --> 00:23:42,640
+Nem arról van szó, hogy senki nem akar dolgozni,
+
+428
+00:23:42,900 --> 00:23:46,120
+hanem arról, hogy egy olyan gazdaságban, ahol a munka egyre bizonytalanabb,
+
+429
+00:23:46,200 --> 00:23:47,960
+a jövedelmek egyre széttartóbbak,
+
+430
+00:23:48,300 --> 00:23:50,820
+a hosszú távú ígéretek elvesztik a hitelüket.
+
+431
+00:23:50,820 --> 00:23:54,420
+Az előregedő társadalmakkal és a romló reálbérekkel pedig
+
+432
+00:23:54,420 --> 00:23:57,560
+senki nem tudja pontosan, hogy milyen formában lesz az elérhető,
+
+433
+00:23:57,620 --> 00:23:58,400
+mire odaérünk.
+
+434
+00:23:58,900 --> 00:24:00,780
+Ezek együtt már nem egyedik problémák,
+
+435
+00:24:01,080 --> 00:24:02,680
+ezek a rendszer állapotjelzői.
+
+436
+00:24:03,020 --> 00:24:06,040
+És ehhez jön hozzá az, ami talán a legkevésbé látványos,
+
+437
+00:24:06,120 --> 00:24:09,500
+mégis a legfontosabb, a társadalmi mobilitás eltűnése.
+
+438
+00:24:10,000 --> 00:24:12,960
+A társadalmi mobilitás nem egy hangzatos szociológiai fogalom,
+
+439
+00:24:13,240 --> 00:24:15,400
+hanem a rendszer egyik legfontosabb stabilizátora.
+
+440
+00:24:15,600 --> 00:24:18,240
+Azt jelenti, hogy az ember nem ott hal meg, ahol megszületett,
+
+441
+00:24:18,240 --> 00:24:20,880
+mármint nem szó szerint, hanem gazdasági értelemben.
+
+442
+00:24:21,240 --> 00:24:23,840
+Hogy van esélyed jobb életre, mint a szüleidnek volt,
+
+443
+00:24:24,120 --> 00:24:26,980
+és hogy a gyerekeidnek esélyük lehet egy még jobbra, mint neked.
+
+444
+00:24:27,420 --> 00:24:30,900
+Nem garancia, nem automatikus jutalom, hanem lehetőség.
+
+445
+00:24:31,300 --> 00:24:33,520
+Ez a lehetőség tartotta egyben a kapitalizmust.
+
+446
+00:24:33,920 --> 00:24:36,820
+Ahogy a videó elején is mondtam, a rendszer soha nem volt igazságos,
+
+447
+00:24:37,220 --> 00:24:39,660
+de sokáig elhitette magáról, hogy legalább nyitott.
+
+448
+00:24:40,040 --> 00:24:43,300
+Hogyha tanulsz, dolgozol, alkalmazkodsz, akkor előrébb juthatsz.
+
+449
+00:24:43,300 --> 00:24:45,400
+Nem mindenki, és nem egyszerre,
+
+450
+00:24:45,400 --> 00:24:49,000
+de elég sokan ahhoz, hogy a többség elfogadja a játékszabályokat.
+
+451
+00:24:49,440 --> 00:24:52,000
+Ez adja egy gazdasági rendszer legitimációját.
+
+452
+00:24:52,360 --> 00:24:54,320
+A társadalmi mobilitás volt az az ígéret,
+
+453
+00:24:54,400 --> 00:24:57,240
+ami miatt a rendszer feszültségei nem robbantak fel azonnal.
+
+454
+00:24:57,760 --> 00:24:59,940
+Ez az ígéret viszont elkezdett halványulni.
+
+455
+00:25:00,340 --> 00:25:02,240
+Nem azért, mert az emberek lustábbak lennének,
+
+456
+00:25:02,280 --> 00:25:03,620
+vagy kevesebbet dolgoznának.
+
+457
+00:25:04,040 --> 00:25:07,780
+Épp ellenkezőleg, hiszen a technológiával a hatékonyságunk az egekben nő.
+
+458
+00:25:08,220 --> 00:25:10,560
+Viszont a lakhatás ára, az oktatás ára,
+
+459
+00:25:10,560 --> 00:25:14,460
+a megéhetés alapfeltételei mind gyorsabban nőnek, mint a bérek.
+
+460
+00:25:14,800 --> 00:25:17,560
+Így az induló különbségek újra meghatározóvá válnak,
+
+461
+00:25:17,860 --> 00:25:20,740
+és nem az számít, hogy mit tudsz, hanem hogy honnan indulsz.
+
+462
+00:25:21,180 --> 00:25:23,360
+Amikor ez a mobilitás lelassul vagy megszűnik,
+
+463
+00:25:23,500 --> 00:25:26,020
+a kapitalizmus egyik belső fékje is eltűnik.
+
+464
+00:25:26,300 --> 00:25:28,860
+A rendszer már nem tudja felszívni a feszültséget azzal,
+
+465
+00:25:28,940 --> 00:25:30,380
+hogy úgy nyerteseket termel ki.
+
+466
+00:25:30,840 --> 00:25:32,940
+A társadalom elkezd rétegekbe merevedni.
+
+467
+00:25:33,420 --> 00:25:34,680
+Lesz felül egy szűk csoport,
+
+468
+00:25:34,800 --> 00:25:36,760
+akiknek a vagyona már önmagát szaporítja,
+
+469
+00:25:36,760 --> 00:25:39,760
+alul pedig egy széles réteg, ami dolgozik, fogyaszt,
+
+470
+00:25:39,860 --> 00:25:41,960
+és egyszerűen mégsem jut előrébb.
+
+471
+00:25:42,400 --> 00:25:44,380
+Tipikus tünet ennek a repedező rendszernek,
+
+472
+00:25:44,460 --> 00:25:45,760
+amikor az már nem túl stabil munkahelyeket,
+
+473
+00:25:46,340 --> 00:25:48,040
+kiszámítható életutakat kínálni,
+
+474
+00:25:48,320 --> 00:25:49,860
+és ezért megjelenik a gig-ekonomi.
+
+475
+00:25:50,200 --> 00:25:52,200
+A gig-ekonomi, magyarul hakni gazdaság,
+
+476
+00:25:52,300 --> 00:25:54,940
+igazából az alkalmi munkák modern formája.
+
+477
+00:25:55,200 --> 00:25:58,060
+A bizonytalanságra adott válasz a rugalmasság ígérete.
+
+478
+00:25:58,500 --> 00:26:00,000
+Az, hogy online platformokon,
+
+479
+00:26:00,180 --> 00:26:02,140
+össze-vissza alkalmi feladatokkal
+
+480
+00:26:02,140 --> 00:26:04,040
+fenn tudjuk tartani az életünket,
+
+481
+00:26:04,040 --> 00:26:06,900
+vagy több állást vállalni akár egyszerre párhuzamosan.
+
+482
+00:26:07,140 --> 00:26:09,740
+Mindez teljesen szabadul, kötetlen munkaidőben,
+
+483
+00:26:10,220 --> 00:26:12,000
+csak hogy ez valójában nem szabadság,
+
+484
+00:26:12,080 --> 00:26:13,740
+hanem kockázat áthelyezés.
+
+485
+00:26:14,200 --> 00:26:15,640
+Azzal, hogy egyre többen kényszerülnek
+
+486
+00:26:15,640 --> 00:26:17,080
+alvállalkozói szerepekbe,
+
+487
+00:26:17,200 --> 00:26:19,700
+a vállalatok megszabadulnak a kötelezettségeiktől.
+
+488
+00:26:20,080 --> 00:26:21,720
+Nem kell garantált munkaidőt adni,
+
+489
+00:26:21,820 --> 00:26:23,460
+nem kell betegszabadságot fizetni,
+
+490
+00:26:23,720 --> 00:26:25,580
+nem kell felmondási idővel számolni,
+
+491
+00:26:25,920 --> 00:26:27,980
+nem kell hosszú távra tervezni az emberekkel.
+
+492
+00:26:28,380 --> 00:26:29,380
+Ha csökken a kereslet,
+
+493
+00:26:29,380 --> 00:26:31,260
+egyszerűen kevesebb megbízást adnak,
+
+494
+00:26:31,260 --> 00:26:33,700
+ha nő, akkor pedig több munkát osztanak ki.
+
+495
+00:26:34,100 --> 00:26:35,440
+A költségek rugalmasak,
+
+496
+00:26:35,520 --> 00:26:37,140
+a felelősség viszont minimális.
+
+497
+00:26:37,480 --> 00:26:40,020
+Az egyén oldaláról viszont ez egészen mást jelent.
+
+498
+00:26:40,300 --> 00:26:42,840
+A kockázat teljes egészében személyes lesz.
+
+499
+00:26:43,180 --> 00:26:45,500
+Ha megbetegszel, nem dolgozol, nincs bevétel.
+
+500
+00:26:45,780 --> 00:26:47,620
+Ha csökken a kereslet, nem kapsz munkát,
+
+501
+00:26:47,760 --> 00:26:48,480
+nincs bevétel.
+
+502
+00:26:48,760 --> 00:26:49,380
+Ha változik az algoritmus,
+
+503
+00:26:50,100 --> 00:26:51,340
+elveszíted az elérésed,
+
+504
+00:26:51,440 --> 00:26:52,380
+és nincs bevétel.
+
+505
+00:26:52,900 --> 00:26:54,080
+Ez azért különösen fontos,
+
+506
+00:26:54,080 --> 00:26:56,800
+mert a gig economy mára nem egy szűk réteg problémája.
+
+507
+00:26:57,080 --> 00:26:58,880
+Nem csak futárokra, sofőrökre
+
+508
+00:26:58,880 --> 00:27:00,820
+és tartalomgyártokra korlátozódik.
+
+509
+00:27:01,200 --> 00:27:02,700
+Egyre több területen jelenik meg
+
+510
+00:27:02,700 --> 00:27:04,900
+a kreatív iparban, oktatásban,
+
+511
+00:27:05,020 --> 00:27:06,560
+médiában, technológiában.
+
+512
+00:27:07,040 --> 00:27:08,760
+Olyan munkák válnak projektszerűvé,
+
+513
+00:27:08,880 --> 00:27:10,840
+amik korábban stabil pályát jelentettek.
+
+514
+00:27:11,120 --> 00:27:13,720
+A megbízási szerződés felváltja az állást,
+
+515
+00:27:14,040 --> 00:27:15,740
+az együttműködés a munkaviszonyt,
+
+516
+00:27:15,800 --> 00:27:17,540
+a rugalmasság pedig a biztonságot.
+
+517
+00:27:18,040 --> 00:27:19,180
+Bízom benne, hogy ez az a pont,
+
+518
+00:27:19,280 --> 00:27:20,660
+ahol teljesen összeáll a kép,
+
+519
+00:27:20,660 --> 00:27:23,720
+ugyanis gyönyörűen kirajzolódik ez az ocsmány mintázat.
+
+520
+00:27:24,200 --> 00:27:25,940
+A megéhetés alapjai bizonytalanok.
+
+521
+00:27:26,180 --> 00:27:27,500
+Az adósság állandósul,
+
+522
+00:27:27,600 --> 00:27:29,360
+a jövő ígéretei elhaványulnak,
+
+523
+00:27:29,640 --> 00:27:30,820
+a mobilitás lelassul,
+
+524
+00:27:30,920 --> 00:27:32,680
+a kockázat pedig lefelé áramlik.
+
+525
+00:27:33,220 --> 00:27:34,740
+A kapitalizmus még termel,
+
+526
+00:27:35,000 --> 00:27:37,200
+profitot hoz és működteti a gépezetet,
+
+527
+00:27:37,480 --> 00:27:40,120
+de már nem termeli újra azokat az emberi feltételeket,
+
+528
+00:27:40,200 --> 00:27:42,020
+amikkel hosszú távon fent tud maradni.
+
+529
+00:27:42,520 --> 00:27:44,340
+Ez nem összeomlás, nem pánik,
+
+530
+00:27:44,460 --> 00:27:45,520
+és nem is világvége,
+
+531
+00:27:45,860 --> 00:27:48,020
+ez egy rendszer lassú kifáradása.
+
+532
+00:27:48,020 --> 00:27:51,200
+Amikor még minden működik, csak már egyre kevesebbeknek.
+
+533
+00:27:51,620 --> 00:27:52,820
+És amikor ez történik,
+
+534
+00:27:52,900 --> 00:27:55,000
+akkor már nem az a kérdés, hogy lesz-e változás,
+
+535
+00:27:55,260 --> 00:27:56,940
+hanem egyedül az, hogy milyen irányba.
+
+536
+00:27:57,340 --> 00:27:59,140
+És erre is van egy remek válaszom,
+
+537
+00:27:59,320 --> 00:28:01,200
+de ez már nem ennek a videónak a témája,
+
+538
+00:28:01,600 --> 00:28:02,600
+így sem lett valami rövid.
+
+539
+00:28:02,960 --> 00:28:04,320
+Nézd vissza egy-két héten belül,
+
+540
+00:28:04,420 --> 00:28:06,660
+és elmesélem, hogyan csúszunk vissza szépen lassan
+
+541
+00:28:06,660 --> 00:28:09,100
+egy újfajta digitális feudalizmusba.
+
+542
+00:28:09,100 --> 00:28:11,220
+Ha pedig érdekel, hogy miért nem megoldás
+
+543
+00:28:11,220 --> 00:28:13,420
+a jelenlegi rendszerválságra a szocializmus,
+
+544
+00:28:13,420 --> 00:28:15,620
+kattints a képernyőn látható videóra,
+
+545
+00:28:15,900 --> 00:28:17,260
+és ismerd meg a Szovjetunió
+
+546
+00:28:17,260 --> 00:28:18,820
+borzalmas gazdaságát.
+
+547
+00:28:19,140 --> 00:28:21,520
+Örülünk, hogy itt voltál, és köszönjük a támogatást
+
+548
+00:28:21,520 --> 00:28:22,780
+minden csatornatagnak.
+
