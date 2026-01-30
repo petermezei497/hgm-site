@@ -16,38 +16,29 @@ Nincs kötelezettség. Nincs elvárás. Nincs előfizetés.
 Tiszta. Egyszerű. Szabad.
 
 <div class="support-grid">
-
 <div class="support-card">
-
-**Jelenlét**  
-_Egy csendes jelzés, hogy itt vagy._   
-👉 [Támogatás — 2026 Ft](https://buy.stripe.com/3cI5kC8cUeOvcXXd3pd7q05)  
-
+<strong>Jelenlét</strong><br>
+<em>Egy csendes jelzés, hogy itt vagy.</em><br>
+👉 <a href="https://buy.stripe.com/3cI5kC8cUeOvcXXd3pd7q05">Támogatás — 2026 Ft</a>
 </div>
 
 <div class="support-card">
-
-**Visszhang**  
-_Nem csak olvasás — egy halk bólintás._  
-👉 [Támogatás — 4052 Ft](https://buy.stripe.com/9B6cN4gJq6hZaPP9Rdd7q06)  
+<strong>Visszhang</strong><br>
+<em>Nem csak olvasás — egy halk bólintás.</em><br>
+👉 <a href="https://buy.stripe.com/9B6cN4gJq6hZaPP9Rdd7q06">Támogatás — 4052 Ft</a>
 </div>
 
 <div class="support-card">
-
-**Megtartás**  
-_Értéket jelent számodra._  
-👉 [Támogatás — 10130 Ft](https://buy.stripe.com/9B6dR89gYfSz4rr6F1d7q07)  
-
+<strong>Megtartás</strong><br>
+<em>Értéket jelent számodra.</em><br>
+👉 <a href="https://buy.stripe.com/9B6dR89gYfSz4rr6F1d7q07">Támogatás — 10130 Ft</a>
 </div>
 
 <div class="support-card">
-
-**Hozzájárulás**  
-_A munka folytatásához._  
-👉 [Támogatás — 20260 Ft](https://buy.stripe.com/28E7sKeBi8q76zz0gDd7q08)  
-
+<strong>Hozzájárulás</strong><br>
+<em>A munka folytatásához.</em><br>
+👉 <a href="https://buy.stripe.com/28E7sKeBi8q76zz0gDd7q08">Támogatás — 20260 Ft</a>
 </div>
-
 </div>
 
 <p class="support-outro">Köszönöm, hogy itt vagy. ❤️</p>
