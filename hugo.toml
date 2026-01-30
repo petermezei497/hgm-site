@@ -1,7 +1,6 @@
 baseURL = "https://www.human-growth-model.xyz/"
 title = "Human Growth Model"
 theme = "PaperMod"
-
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -17,11 +16,28 @@ defaultContentLanguageInSubdir = true
   ShowToc = true
   ShowLanguageSwitcher = true
   displayFullLangName = true
+  # Meta defaults
+  description = "A space for reflective thinking about human growth, systems, and meaningful change. I write to think — and to notice how systems shape people."
+  author = "Human Growth Model"
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [markup.renderer]
+      unsafe = true  # Use with caution - only if you control all content
+
+# RSS configuration
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "index"
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 [languages]
   [languages.en]
@@ -29,24 +45,20 @@ defaultContentLanguageInSubdir = true
     languageCode = "en-gb"
     contentDir = "content/en"
     weight = 1
-	[languages.en.params]
-	languageAltTitle = "English"
-
+    [languages.en.params]
+      languageAltTitle = "English"
     [[languages.en.menu.main]]
       name = "Posts"
       pageRef = "/posts"
       weight = 10
-
     [[languages.en.menu.main]]
       name = "Core Ideas"
       pageRef = "lessons"
       weight = 15
-
     [[languages.en.menu.main]]
       name = "About"
       pageRef = "/about"
       weight = 20
-    
     [[languages.en.menu.main]]
       name = "Support"
       pageRef = "support"
@@ -57,24 +69,20 @@ defaultContentLanguageInSubdir = true
     languageCode = "hu-hu"
     contentDir = "content/hu"
     weight = 2
-	[languages.hu.params]
-	languageAltTitle = "Magyar"
-
+    [languages.hu.params]
+      languageAltTitle = "Magyar"
     [[languages.hu.menu.main]]
       name = "Posztok"
       pageRef = "/posts"
       weight = 10
-
     [[languages.hu.menu.main]]
       name = "Alapötletek"
       pageRef = "lessons"
       weight = 15
-
     [[languages.hu.menu.main]]
       name = "Rólam"
       pageRef = "/about"
       weight = 20
-
     [[languages.hu.menu.main]]
       name = "Támogatás"
       pageRef = "support"
