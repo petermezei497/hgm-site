@@ -15,6 +15,7 @@ Nincs kötelezettség. Nincs elvárás. Nincs előfizetés.
 
 Tiszta. Egyszerű. Szabad.
 
+{{< rawhtml >}}
 <div class="support-grid">
 <div class="support-card">
 <strong>Jelenlét</strong><br>
@@ -42,3 +43,4 @@ Tiszta. Egyszerű. Szabad.
 </div>
 
 <p class="support-outro">Köszönöm, hogy itt vagy. ❤️</p>
+{{< /rawhtml >}}

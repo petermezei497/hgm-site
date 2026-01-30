@@ -13,6 +13,7 @@ No subscriptions. No obligations. No expectations.
 
 Clean. Simple. Free.
 
+{{< rawhtml >}}
 <div class="support-grid">
 <div class="support-card">
 <strong>Presence</strong><br>
@@ -40,3 +41,4 @@ Clean. Simple. Free.
 </div>
 
 <p class="support-outro">Thank you for being a part of this. ❤️</p>
+{{< /rawhtml >}}
