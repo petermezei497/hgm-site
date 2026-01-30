@@ -1,6 +1,6 @@
 ---
-title: "{ Amikor rájössz: ezt te készen kaptad }"
-date: { 2026-01-30 }
+title: "Amikor rájössz: ezt te készen kaptad"
+date: 2026-01-30
 draft: false
 description: “”
 publishDate: 2026-01-30T12:30:00Z
