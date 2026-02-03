@@ -1,5 +1,5 @@
 ---
-title: ‘HGM Elemző – A feudalizmus’
+title: HGM Elemző – A feudalizmus
 date: 2026-02-01
 draft: false
 publishDate: 2026-02-01T19:30:00Z
