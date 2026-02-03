@@ -1,12 +1,12 @@
 ---
-title: HGM Analyst – The Feudalism
+title: HGM Analyst – Feudalism
 date: 2026-02-01
 draft: false
 publishDate: 2026-02-01T19:30:00Z
 ---
 
 This series is not economic history.
-It’s observation of how systems treat people.
+It’s an observation of how systems treat people.
 
 ⸻
 
