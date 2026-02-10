@@ -6,7 +6,7 @@ publishDate: 2026-02-07T14:30:00Z
 ---
 
 This series is not economic history.
-It’s observation of how systems treat people.
+It’s an observation of how systems treat people.
 
 ⸻
 
