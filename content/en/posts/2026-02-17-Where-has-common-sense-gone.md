@@ -1,5 +1,5 @@
 ---
-title: Maybe common sense hasn’t disappeared yet…
+title: Where has common sense gone?
 date: 2026-02-17
 draft: false
 publishDate: 2026-02-17T12:30:00Z
