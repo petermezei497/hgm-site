@@ -1,5 +1,5 @@
 ---
-title: The Recipe for a Hungarian Economic Miracle?
+title: " The Recipe for a Hungarian Economic Miracle? "
 date: 2026-04-26
 draft: false
 publishDate: 2026-04-26T17:00:00Z

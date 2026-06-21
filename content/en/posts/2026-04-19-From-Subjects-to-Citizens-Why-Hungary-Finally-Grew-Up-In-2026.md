@@ -1,5 +1,5 @@
 ---
-title: “From Subjects to Citizens: Why Hungary Finally Grew Up in 2026”
+title: " From Subjects to Citizens - Why Hungary Finally Grew Up in 2026 "
 date: 2026-04-19
 draft: false
 publishDate: 2026-04-19T14:18:00Z
@@ -29,4 +29,4 @@ It makes me smile when Viktor Orbán or Gergely Huth say that their 'community' 
 
 Truth triumphs in the end; the story ends well. But I hope this is only just the beginning... ❤️
 
-Because an opportunity is opening up to build a new, fair, transparent system that everyone can understand. In a transparent system, everyone can see exactly how the taxes they pay are being used for the common good. And because it’s understandable, people will be much more willing to contribute, because they see and understand that together, everything is easier. It can rebuild the trust between the state and its citizens. For this, the state must operate efficiently—it will be hard, but it’s doable. Perhaps even the negative connotation of the word 'tax' will vanish or change, but maybe that’s just wishful thinking... 🤓😜"
+Because an opportunity is opening up to build a new, fair, transparent system that everyone can understand. In a transparent system, everyone can see exactly how the taxes they pay are being used for the common good. And because it’s understandable, people will be much more willing to contribute, because they see and understand that together, everything is easier. It can rebuild the trust between the state and its citizens. For this, the state must operate efficiently—it will be hard, but it’s doable. Perhaps even the negative connotation of the word 'tax' will vanish or change, but maybe that’s just wishful thinking... 🤓😜
