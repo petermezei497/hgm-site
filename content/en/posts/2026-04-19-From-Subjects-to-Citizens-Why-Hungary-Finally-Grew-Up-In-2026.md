@@ -1,5 +1,5 @@
 ---
-title: From Subjects to Citizens: Why Hungary Finally Grew Up in 2026
+title: “From Subjects to Citizens: Why Hungary Finally Grew Up in 2026”
 date: 2026-04-19
 draft: false
 publishDate: 2026-04-19T14:18:00Z
