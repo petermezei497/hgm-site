@@ -22,9 +22,9 @@ defaultContentLanguageInSubdir = true
 
 [markup]
   [markup.goldmark]
-    [markup.renderer]
-      	# Use with caution - only if you control all content
-	unsafe = true  
+    [markup.goldmark.renderer]
+      # Use with caution - only if you control all content
+      unsafe = true
 # RSS configuration
 [outputs]
   home = ["HTML", "RSS", "JSON"]
