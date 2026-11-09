@@ -1,0 +1,15 @@
+{
+  "name": "hgm-site",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "hugo --gc --minify && node scripts/build-search-index.mjs",
+    "preview": "npm run build && python3 -m http.server 8080 --directory public"
+  },
+  "devDependencies": {
+    "pagefind": "1.6.0"
+  }
+}
