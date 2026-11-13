@@ -3,3 +3,6 @@
 
 - id: search_requires_js
   translation: "A kereséshez JavaScript szükséges."
+
+- id: search_closest_matches
+  translation: "Nincs pontos találat erre: „{words}”. Legközelebbi találatok:"

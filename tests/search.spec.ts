@@ -131,3 +131,66 @@ test("search page loads no legacy search and has no JS errors", async ({ page })
   expect(errors).toEqual([]);
   expect(urls.filter((u) => new URL(u).pathname.endsWith("index.json"))).toEqual([]);
 });
+
+// "Closest matches" notice: shown when a typed word has no exact match but Pagefind's prefix matching still finds results.
+const NOTICE = "#search-notice";
+
+test("en: missing word shows closest-matches notice", async ({ page }) => {
+  await search(page, "/en/search/", "conservative");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await expect(page.locator(NOTICE)).toContainText("No exact results for");
+  await expect(page.locator(NOTICE)).toContainText("conservative");
+  await expect(page.locator(LINK).first()).toBeVisible();
+});
+
+test("hu: missing word shows closest-matches notice", async ({ page }) => {
+  await search(page, "/hu/search/", "konzervativ");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await expect(page.locator(NOTICE)).toContainText("Nincs pontos találat");
+  await expect(page.locator(NOTICE)).toContainText("konzervativ");
+});
+
+test("existing word shows no notice", async ({ page }) => {
+  // Prove the exact check has had time to run: a missing word in the same page shows the notice first.
+  await search(page, "/en/search/", "conservative");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  for (const [path, query] of [
+    ["/en/search/", "trust"],
+    ["/hu/search/", "igazsag"],
+  ]) {
+    await search(page, path, query);
+    await expect(page.locator(LINK).first()).toBeVisible();
+    await expect(page.locator(MESSAGE)).toContainText(/\d+ (results?|db találat)/);
+    await expect(page.locator(NOTICE)).toHaveAttribute("data-checked-query", query); // exact check has finished
+    await expect(page.locator(NOTICE)).toBeHidden();
+  }
+});
+
+test("notice names only the missing words", async ({ page }) => {
+  await search(page, "/en/search/", "trust conservative");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await expect(page.locator(NOTICE)).toContainText("conservative");
+  await expect(page.locator(NOTICE)).not.toContainText("trust");
+});
+
+test("notice clears when the query changes", async ({ page }) => {
+  await search(page, "/en/search/", "conservative");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await page.locator(INPUT).fill("trust");
+  await expect(page.locator(MESSAGE)).toContainText(/\d+ results? for .*trust/);
+  await expect(page.locator(NOTICE)).toBeHidden();
+});
+
+test("notice hides when the search is cleared", async ({ page }) => {
+  await search(page, "/en/search/", "conservative");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await page.locator(".pagefind-ui__search-clear").click();
+  await expect(page.locator(INPUT)).toHaveValue("");
+  await expect(page.locator(NOTICE)).toBeHidden();
+});
+
+test("notice shows special characters literally", async ({ page }) => {
+  await search(page, "/en/search/", "a$&b");
+  await expect(page.locator(NOTICE)).toBeVisible();
+  await expect(page.locator(NOTICE)).toContainText("a$&b");
+});
