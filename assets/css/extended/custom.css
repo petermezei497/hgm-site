@@ -42,3 +42,13 @@
   --pagefind-ui-tag: var(--code-bg);
   --pagefind-ui-font: inherit;
 }
+
+/* "Closest matches" notice above the search results (see layouts/_default/pagefind.html) */
+#search-notice {
+  margin: 12px 0 0;
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+#search-notice[hidden] {
+  display: none;
+}

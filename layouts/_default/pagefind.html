@@ -31,8 +31,74 @@
             new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
         } catch (e) {
             document.getElementById("search").textContent = {{ i18n "search_unavailable" }};
+            return;
         }
+        setupClosestMatchesNotice({{ i18n "search_closest_matches" }});
     });
+
+    // Pagefind quietly shortens words that are not in the blog until something matches
+    // ("conservative" -> "co-creating"). This adds a notice above the results when that happens.
+    function setupClosestMatchesNotice(template) {
+        const input = document.querySelector("#search .pagefind-ui__search-input");
+        if (!input) return;
+
+        let pagefind = null;
+        let latest = 0; // id of the newest query; older, slower checks must not overwrite it
+        let timer = null;
+
+        // Words the user typed that have no exact match (a quoted query turns on Pagefind's exact search).
+        async function missingWords(query) {
+            const words = query.split(/\s+/)
+                .map(function (w) { return w.replace(/^[\p{P}\p{S}]+|[\p{P}\p{S}]+$/gu, "").replace(/"/g, ""); })
+                .filter(Boolean);
+            const missing = [];
+            for (const word of new Set(words)) {
+                if ((await pagefind.search('"' + word + '"')).results.length === 0) missing.push(word);
+            }
+            return missing;
+        }
+
+        // The notice sits between the search box and the results (the results "drawer" lives inside
+        // Pagefind UI's form). Pagefind UI re-renders, so it is re-attached whenever it has moved or been detached.
+        function showNotice(words) {
+            let notice = document.getElementById("search-notice");
+            if (!words.length) {
+                if (notice) notice.hidden = true;
+                return;
+            }
+            if (!notice) {
+                notice = document.createElement("p");
+                notice.id = "search-notice";
+                notice.setAttribute("role", "status");
+            }
+            const drawer = document.querySelector("#search .pagefind-ui__drawer");
+            if (drawer && notice.nextElementSibling !== drawer) drawer.before(notice);
+            notice.textContent = template.replace("{words}", words.join(", "));
+            notice.hidden = false;
+        }
+
+        async function check() {
+            const id = ++latest;
+            const query = input.value.trim();
+            if (!query) return showNotice([]);
+            try {
+                pagefind = pagefind || await import("/pagefind/pagefind.js");
+                const missing = await missingWords(query);
+                // Only the newest query may update the notice, and only if the normal search found something.
+                if (id !== latest) return;
+                const found = missing.length ? (await pagefind.search(query)).results.length : 0;
+                if (id === latest) showNotice(found > 0 ? missing : []);
+            } catch (e) {
+                if (id === latest) showNotice([]);
+            }
+        }
+
+        input.addEventListener("input", function () {
+            latest++; // invalidate any check still running for the previous text
+            clearTimeout(timer);
+            timer = setTimeout(check, 300);
+        });
+    }
 </script>
 
 {{- end }}{{/* end main */}}

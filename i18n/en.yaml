@@ -3,3 +3,6 @@
 
 - id: search_requires_js
   translation: "Search requires JavaScript."
+
+- id: search_closest_matches
+  translation: "No exact results for “{words}”. Closest matches:"
