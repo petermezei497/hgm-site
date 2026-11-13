@@ -75,7 +75,7 @@ test("menu links to search in both languages", async ({ page }) => {
 test("shows unavailable message when Pagefind cannot load", async ({ page }) => {
   await page.route("**/pagefind/**", (route) => route.abort());
   await page.goto("/en/search/");
-  await expect(page.getByText("Search is currently unavailable.")).toBeVisible();
+  await expect(page.locator("#search")).toHaveText("Search is currently unavailable.");
 });
 
 test("works at phone width", async ({ page }) => {

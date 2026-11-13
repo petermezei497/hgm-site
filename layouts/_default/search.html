@@ -28,9 +28,9 @@
 <script>
     window.addEventListener("DOMContentLoaded", function () {
         try {
-            new PagefindUI({ element: "#search", showSubResults: true });
+            new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
         } catch (e) {
-            document.getElementById("search").textContent = {{ i18n "search_unavailable" | jsonify }};
+            document.getElementById("search").textContent = {{ i18n "search_unavailable" }};
         }
     });
 </script>
