@@ -194,3 +194,22 @@ test("notice shows special characters literally", async ({ page }) => {
   await expect(page.locator(NOTICE)).toBeVisible();
   await expect(page.locator(NOTICE)).toContainText("a$&b");
 });
+
+test("search pages have no stray separator before Translations", async ({ page }) => {
+  // The translation list puts a "|" before "Translations:" when meta precedes it. Search pages have no meta, so none should appear.
+  const cases = [
+    { path: "/en/search/", label: "Translations" },
+    { path: "/hu/search/", label: "Fordítások" },
+  ];
+  for (const { path, label } of cases) {
+    await page.goto(path);
+    const meta = ((await page.locator(".post-meta").textContent()) ?? "").trim();
+    expect(meta, `${path} meta should not start with a separator`).not.toMatch(/^\|/);
+    expect(meta, `${path} meta should show the translations label`).toContain(label);
+  }
+});
+
+test("about page keeps its separator", async ({ page }) => {
+  await page.goto("/en/about/");
+  await expect(page.locator(".post-meta")).toContainText("|");
+});
