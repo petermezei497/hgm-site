@@ -83,8 +83,8 @@ Also covered: the Hungarian UI, the "search unavailable" fallback, and phone wid
 On failure Playwright keeps a trace and screenshot; in CI they are uploaded as a downloadable artifact.
 
 **CI (GitHub Actions, `.github/workflows/e2e.yml`).**
-- Production: on push to `main` the workflow polls `/version.txt` on the live site until it matches the commit, then runs `npm test` against it (Netlify reports no `deployment_status` for production).
-- PR previews: tested via `deployment_status` events, if Netlify sends them; the result shows as a check on the pull request.
+- Production: on push to `main` the workflow polls `/version.txt` on the live site until it matches the commit, then runs `npm test` against it.
+- PR previews: the workflow triggers on `pull_request` (opened, synchronize, reopened; base `main`), polls `https://deploy-preview-<PR number>--hgm-site.netlify.app/version.txt` until it equals the PR head SHA, then runs `npm test` against the preview; the result shows as a check on the pull request.
 - Manual: `workflow_dispatch` with a `base_url` input.
 
 Testing deployed URLs (not a copy built inside GitHub) means tests see the real Netlify headers, including the Content-Security-Policy — the main risk in this feature.
@@ -101,7 +101,7 @@ Work on branch `feature/site-search` → pull request → Netlify deploy preview
 
 - Hungarian stemming: verified. `bizalmat` returns results on `/hu/search/`, so inflected forms match.
 - Hungarian UI: verified. Pagefind UI text is localized on `/hu/search/`.
-- Netlify `deployment_status` for PR previews: still pending verification on the first pull request. If it never arrives, fall back to polling the predictable preview URL.
+- Netlify `deployment_status` for PR previews: resolved. Netlify creates no GitHub deployments, so the event never fires; the polling fallback (`pull_request` trigger + preview `version.txt`) was adopted.
 
 ## Out of scope
 
