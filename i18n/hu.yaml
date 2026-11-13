@@ -1,0 +1,5 @@
+- id: search_unavailable
+  translation: "A keresés jelenleg nem érhető el."
+
+- id: search_requires_js
+  translation: "A kereséshez JavaScript szükséges."

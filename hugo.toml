@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = true
       unsafe = true
 # RSS configuration
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
 
 [outputFormats.RSS]
@@ -56,6 +56,10 @@ defaultContentLanguageInSubdir = true
       pageRef = "lessons"
       weight = 15
     [[languages.en.menu.main]]
+      name = "Search"
+      pageRef = "search"
+      weight = 17
+    [[languages.en.menu.main]]
       name = "About"
       pageRef = "/about"
       weight = 20
@@ -79,6 +83,10 @@ defaultContentLanguageInSubdir = true
       name = "Alapötletek"
       pageRef = "lessons"
       weight = 15
+    [[languages.hu.menu.main]]
+      name = "Keresés"
+      pageRef = "search"
+      weight = 17
     [[languages.hu.menu.main]]
       name = "Rólam"
       pageRef = "/about"

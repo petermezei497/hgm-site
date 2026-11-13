@@ -33,3 +33,12 @@
 .support-outro {
   margin-top: 18px;
 }
+/* Pagefind search UI: reuse PaperMod's colour variables (they swap in dark mode) */
+.pagefind-ui {
+  --pagefind-ui-primary: var(--primary);
+  --pagefind-ui-text: var(--primary);
+  --pagefind-ui-background: var(--theme);
+  --pagefind-ui-border: var(--border);
+  --pagefind-ui-tag: var(--code-bg);
+  --pagefind-ui-font: inherit;
+}
