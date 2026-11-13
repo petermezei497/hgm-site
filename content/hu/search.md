@@ -1,6 +1,6 @@
 ---
 title: "Keresés"
 slug: "search"
-layout: "search"
+layout: "pagefind"
 draft: false
 ---

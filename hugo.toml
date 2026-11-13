@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = true
       unsafe = true
 # RSS configuration
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
 
 [outputFormats.RSS]

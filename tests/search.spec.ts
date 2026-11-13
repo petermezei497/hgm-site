@@ -30,7 +30,7 @@ test("hu: bizalom finds the Core Idea and opens it", async ({ page }) => {
 });
 
 test("hu: inflected form matches (stemming)", async ({ page }) => {
-  await search(page, "/hu/search/", "bizalomról");
+  await search(page, "/hu/search/", "bizalmat");
   await expect(page.locator(LINK).first()).toBeVisible();
 });
 
@@ -41,7 +41,7 @@ test("accented Hungarian query matches", async ({ page }) => {
 
 test("en: Hungarian word finds nothing", async ({ page }) => {
   await search(page, "/en/search/", "bizalom");
-  await expect(page.locator(MESSAGE)).toBeVisible();
+  await expect(page.locator(MESSAGE)).toContainText("No results");
   await expect(page.locator(LINK)).toHaveCount(0);
 });
 
@@ -53,6 +53,8 @@ test("en: nonsense query shows no-results message", async ({ page }) => {
 test("only content pages appear in results", async ({ page }) => {
   await search(page, "/en/search/", "paper");
   await expect(page.locator(LINK).first()).toBeVisible();
+  // Wait until the search has finished ("N results for ...", not "Searching for ...").
+  await expect(page.locator(MESSAGE)).toContainText(/\d+ results? for/);
   const hrefs = await page
     .locator(LINK)
     .evaluateAll((els) => els.map((e) => (e as HTMLAnchorElement).getAttribute("href") || ""));
@@ -92,4 +94,20 @@ test("works at phone width", async ({ page }) => {
   const box = await page.locator(INPUT).boundingBox();
   expect(box).not.toBeNull();
   expect(box!.x + box!.width).toBeLessThanOrEqual(375);
+});
+
+test("search page loads no legacy search and has no JS errors", async ({ page }) => {
+  const errors: string[] = [];
+  const urls: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  page.on("request", (r) => urls.push(r.url()));
+  for (const [path, query] of [
+    ["/en/search/", "trust"],
+    ["/hu/search/", "bizalom"],
+  ]) {
+    await search(page, path, query);
+    await expect(page.locator(LINK).first()).toBeVisible();
+  }
+  expect(errors).toEqual([]);
+  expect(urls.filter((u) => new URL(u).pathname.endsWith("index.json"))).toEqual([]);
 });
