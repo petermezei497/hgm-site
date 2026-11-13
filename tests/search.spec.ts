@@ -40,18 +40,23 @@ test("accented Hungarian query matches", async ({ page }) => {
 });
 
 test("hu: unaccented query finds the same results as accented", async ({ page }) => {
-  // Returns the sorted, de-duplicated result hrefs once the search has finished ("N db találat").
-  const resultHrefs = async (query: string) => {
+  // Returns the total result count ("N db találat") and the sorted, de-duplicated hrefs of the rendered links.
+  const resultSet = async (query: string) => {
     await search(page, "/hu/search/", query);
     await expect(page.locator(MESSAGE)).toContainText(/\d+ db találat/);
+    const text = (await page.locator(MESSAGE).textContent()) ?? "";
+    const count = Number(text.match(/(\d+) db találat/)?.[1]);
+    await expect(page.locator(LINK).first()).toBeVisible();
     const hrefs = await page
       .locator(LINK)
       .evaluateAll((els) => els.map((e) => (e as HTMLAnchorElement).getAttribute("href") || ""));
-    return [...new Set(hrefs.map((h) => h.split("#")[0]))].sort();
+    return { count, hrefs: [...new Set(hrefs.map((h) => h.split("#")[0]))].sort() };
   };
-  const accented = await resultHrefs("igazság");
-  expect(accented.length, "accented query should have results").toBeGreaterThan(0);
-  expect(await resultHrefs("igazsag")).toEqual(accented);
+  const accented = await resultSet("igazság");
+  const unaccented = await resultSet("igazsag");
+  expect(accented.count, "accented query should have results").toBeGreaterThan(0);
+  expect(unaccented.count).toEqual(accented.count);
+  expect(unaccented.hrefs).toEqual(accented.hrefs);
 });
 
 test("en: Hungarian word finds nothing", async ({ page }) => {
