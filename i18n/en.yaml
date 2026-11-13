@@ -1,0 +1,5 @@
+- id: search_unavailable
+  translation: "Search is currently unavailable."
+
+- id: search_requires_js
+  translation: "Search requires JavaScript."
