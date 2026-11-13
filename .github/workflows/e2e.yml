@@ -60,7 +60,7 @@ jobs:
           # the live site serves this commit's SHA in version.txt.
           deadline=$((SECONDS + TIMEOUT))
           while true; do
-            live=$(curl -fsS "$URL/version.txt?cb=$(date +%s)" 2>&1) || true
+            live=$(curl -fsS --max-time 10 "$URL/version.txt?cb=$(date +%s)" 2>&1) || true
             if [ "$live" = "$EXPECTED" ]; then
               echo "Live site is serving $EXPECTED"
               exit 0
