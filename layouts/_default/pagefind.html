@@ -58,46 +58,59 @@
             return missing;
         }
 
+        // One persistent live region (role="status"): it stays in the DOM and only its text changes,
+        // so screen readers announce updates. An empty notice has no height, so nothing shows.
+        const notice = document.createElement("p");
+        notice.id = "search-notice";
+        notice.setAttribute("role", "status");
+
         // The notice sits between the search box and the results (the results "drawer" lives inside
         // Pagefind UI's form). Pagefind UI re-renders, so it is re-attached whenever it has moved or been detached.
-        function showNotice(words) {
-            let notice = document.getElementById("search-notice");
-            if (!words.length) {
-                if (notice) notice.hidden = true;
-                return;
-            }
-            if (!notice) {
-                notice = document.createElement("p");
-                notice.id = "search-notice";
-                notice.setAttribute("role", "status");
-            }
+        function attach() {
             const drawer = document.querySelector("#search .pagefind-ui__drawer");
             if (drawer && notice.nextElementSibling !== drawer) drawer.before(notice);
-            notice.textContent = template.replace("{words}", words.join(", "));
-            notice.hidden = false;
+        }
+
+        function showNotice(words) {
+            attach();
+            notice.textContent = words.length ? template.replace("{words}", function () { return words.join(", "); }) : "";
+            notice.style.margin = words.length ? "" : "0";
+        }
+
+        // Hides the notice at once and invalidates any check still running.
+        function reset() {
+            latest++;
+            clearTimeout(timer);
+            showNotice([]);
         }
 
         async function check() {
             const id = ++latest;
             const query = input.value.trim();
-            if (!query) return showNotice([]);
             try {
-                pagefind = pagefind || await import("/pagefind/pagefind.js");
-                const missing = await missingWords(query);
-                // Only the newest query may update the notice, and only if the normal search found something.
-                if (id !== latest) return;
-                const found = missing.length ? (await pagefind.search(query)).results.length : 0;
-                if (id === latest) showNotice(found > 0 ? missing : []);
+                if (query) {
+                    pagefind = pagefind || await import("/pagefind/pagefind.js");
+                    const missing = await missingWords(query);
+                    // Only the newest query may update the notice, and only if the normal search found something.
+                    if (id !== latest) return;
+                    const found = missing.length ? (await pagefind.search(query)).results.length : 0;
+                    if (id === latest) showNotice(found > 0 ? missing : []);
+                }
             } catch (e) {
                 if (id === latest) showNotice([]);
             }
+            if (id === latest) notice.dataset.checkedQuery = query; // lets tests wait for a finished check
         }
 
         input.addEventListener("input", function () {
-            latest++; // invalidate any check still running for the previous text
-            clearTimeout(timer);
+            reset(); // never show a notice that describes an older query
             timer = setTimeout(check, 300);
         });
+        // Pagefind's "Clear" button empties the input without firing an input event.
+        document.getElementById("search").addEventListener("click", function (e) {
+            if (e.target.closest(".pagefind-ui__search-clear")) reset();
+        });
+        showNotice([]);
     }
 </script>
 
