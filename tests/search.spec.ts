@@ -39,6 +39,21 @@ test("accented Hungarian query matches", async ({ page }) => {
   await expect(page.locator(LINK).filter({ hasText: HU_TITLE }).first()).toBeVisible();
 });
 
+test("hu: unaccented query finds the same results as accented", async ({ page }) => {
+  // Returns the sorted, de-duplicated result hrefs once the search has finished ("N db találat").
+  const resultHrefs = async (query: string) => {
+    await search(page, "/hu/search/", query);
+    await expect(page.locator(MESSAGE)).toContainText(/\d+ db találat/);
+    const hrefs = await page
+      .locator(LINK)
+      .evaluateAll((els) => els.map((e) => (e as HTMLAnchorElement).getAttribute("href") || ""));
+    return [...new Set(hrefs.map((h) => h.split("#")[0]))].sort();
+  };
+  const accented = await resultHrefs("igazság");
+  expect(accented.length, "accented query should have results").toBeGreaterThan(0);
+  expect(await resultHrefs("igazsag")).toEqual(accented);
+});
+
 test("en: Hungarian word finds nothing", async ({ page }) => {
   await search(page, "/en/search/", "bizalom");
   await expect(page.locator(MESSAGE)).toContainText("No results");
