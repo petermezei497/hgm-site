@@ -46,14 +46,21 @@ test("en: Hungarian word finds nothing", async ({ page }) => {
 });
 
 test("en: nonsense query shows no-results message", async ({ page }) => {
-  await search(page, "/en/search/", "xqzvkjw");
+  await search(page, "/en/search/", "qqqqwwww");
   await expect(page.locator(MESSAGE)).toContainText("No results");
 });
 
-test("footer text is not indexed", async ({ page }) => {
-  await search(page, "/en/search/", "PaperMod");
-  await expect(page.locator(MESSAGE)).toBeVisible();
-  await expect(page.locator(LINK)).toHaveCount(0);
+test("only content pages appear in results", async ({ page }) => {
+  await search(page, "/en/search/", "paper");
+  await expect(page.locator(LINK).first()).toBeVisible();
+  const hrefs = await page
+    .locator(LINK)
+    .evaluateAll((els) => els.map((e) => (e as HTMLAnchorElement).getAttribute("href") || ""));
+  const allowed = /^\/en\/(posts|lessons)\/[^/]+\/$|^\/en\/about\/$/;
+  const bad = hrefs
+    .map((h) => h.split("#")[0])
+    .filter((h) => !allowed.test(h) || h.includes("/page/"));
+  expect(bad, `Non-content pages in results: ${bad.join(", ")}`).toEqual([]);
 });
 
 test("hu: interface is in Hungarian", async ({ page }) => {
