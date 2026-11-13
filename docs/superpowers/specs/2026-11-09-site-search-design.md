@@ -39,12 +39,14 @@ Repo changes:
 | File | Change |
 |---|---|
 | `package.json` + `package-lock.json` | New. Pins exact versions of `pagefind` and `@playwright/test`. Defines npm scripts (below). |
-| `scripts/build-search-index.mjs` | New. Runs Pagefind via its Node API over `public/`, prints the page count, and **exits with an error if fewer than 100 pages were indexed** (current total ≈125). This is the in-build safety check. |
+| `scripts/build-search-index.mjs` | New. Runs Pagefind via its Node API over `public/`, prints the page count, and **exits with an error if fewer than 100 pages were indexed** (current total 123). It counts pages actually indexed (from `pagefind-entry.json`), not HTML files processed. This is the in-build safety check. |
 | `layouts/_default/single.html` | New override: copy of PaperMod's template with `data-pagefind-body` added to the post content element, so only real writing is indexed and pages without it (lists, search) are skipped. |
-| `layouts/_default/search.html` | New override replacing PaperMod's Fuse.js search template with Pagefind's UI. |
-| `content/en/search.md`, `content/hu/search.md` | New pages using `layout: "search"`. |
-| `hugo.toml` | Add the Search menu entry per language. |
-| `netlify.toml` | Build command → `npm run build`. Add `'wasm-unsafe-eval'` to the CSP `script-src` (Pagefind runs as WebAssembly). Pin `HUGO_VERSION = "0.154.3"` (matches local) and `NODE_VERSION = "24"` in `[build.environment]` so Netlify, CI and local use the same versions. |
+| `layouts/_default/pagefind.html` | New template with Pagefind's UI. Deliberately not `search.html`: PaperMod's head partial loads Fuse.js and downloads the full-text `index.json` for any page with `layout: search`. |
+| `content/en/search.md`, `content/hu/search.md` | New pages using `layout: "pagefind"`. |
+| `scripts/write-version.mjs` | New. Writes `public/version.txt` (Netlify's `COMMIT_REF`) so CI can tell which commit is live. |
+| `i18n/en.yaml`, `i18n/hu.yaml` | New. Fallback strings (`search_unavailable`, `search_requires_js`). |
+| `hugo.toml` | Add the Search menu entry per language. Remove the `JSON` home output (only the old Fuse.js search used `index.json`). |
+| `netlify.toml` | Build command → `npm run build`. Add `'wasm-unsafe-eval'` to the CSP `script-src` (Pagefind runs as WebAssembly). Pin `HUGO_VERSION = "0.154.3"` (matches local) and `NODE_VERSION = "24"` in `[build.environment]` so Netlify, CI and local use the same versions. The `/*.js` and `/*.css` immutable-cache rules were removed: Pagefind's files are not fingerprinted; Hugo's are under `/assets/`, which keeps its rule. |
 | `tests/search.spec.ts`, `playwright.config.ts` | New. End-to-end tests (below). |
 | `.github/workflows/e2e.yml` | New. CI workflow (below). |
 | `.gitignore` | Add `node_modules/`, Playwright reports/results. |
@@ -58,7 +60,7 @@ npm scripts:
 | `npm run preview` | Build, then serve `public/` locally so search works (the `hugo server` live preview does not run Pagefind). |
 | `npm test` | Playwright tests. Default target: a local build that Playwright starts automatically. With `BASE_URL=<url>`: tests that URL instead (deploy preview or live site). |
 
-Local prerequisite: Node.js via Homebrew (`brew install node`), then `npm install` and `npx playwright install chromium` once.
+Local prerequisite: Node.js 24 via Homebrew (`brew install node@24`), then `npm install` and `npx playwright install chromium` once.
 
 ## Testing
 
@@ -69,16 +71,21 @@ Local prerequisite: Node.js via Homebrew (`brew install node`), then `npm instal
 1. English search page loads and shows a search box.
 2. Query `trust` on `/en/search/` returns "Trust as an economic force".
 3. Query `bizalom` on `/hu/search/` returns "A bizalom mint gazdasági erő".
-4. Hungarian word endings: an inflected form (e.g. `bizalomról` or `bizalmat`) on `/hu/search/` returns at least one result. Exact word confirmed against the built index during implementation.
+4. Hungarian word endings: the inflected form `bizalmat` (not a prefix extension of `bizalom`) on `/hu/search/` returns at least one result.
 5. Language separation: `bizalom` on `/en/search/` returns no results (the word appears in no English page).
-6. A nonsense query shows the no-results message.
+6. A nonsense query (`qqqqwwww`) shows the no-results message.
 7. Menu: the Search link is present on the English and Hungarian home pages and leads to the right search page.
+8. Only content pages (posts, lessons, About) appear in results.
+9. The search pages load no legacy search (no `index.json` request) and raise no JS errors.
+
+Also covered: the Hungarian UI, the "search unavailable" fallback, and phone width.
 
 On failure Playwright keeps a trace and screenshot; in CI they are uploaded as a downloadable artifact.
 
-**CI (GitHub Actions, `.github/workflows/e2e.yml`).** Triggered by GitHub `deployment_status` events that Netlify sends when a deploy finishes successfully:
-- Deploy preview of a pull request → run `npm test` with `BASE_URL` = the preview URL. The result shows as a check on the pull request.
-- Production deploy of `main` → run the same tests against the live site, as a post-deploy check.
+**CI (GitHub Actions, `.github/workflows/e2e.yml`).**
+- Production: on push to `main` the workflow polls `/version.txt` on the live site until it matches the commit, then runs `npm test` against it (Netlify reports no `deployment_status` for production).
+- PR previews: tested via `deployment_status` events, if Netlify sends them; the result shows as a check on the pull request.
+- Manual: `workflow_dispatch` with a `base_url` input.
 
 Testing deployed URLs (not a copy built inside GitHub) means tests see the real Netlify headers, including the Content-Security-Policy — the main risk in this feature.
 
@@ -90,11 +97,11 @@ Cost: GitHub Actions is free for public repositories. Deploy previews use Netlif
 
 Work on branch `feature/site-search` → pull request → Netlify deploy preview → tests pass → merge to `main` → production deploy → post-deploy tests.
 
-## To verify during implementation
+## To verify
 
-- Pagefind's Hungarian stemming support (test 4). If unsupported, drop test 4 and note it here.
-- Netlify reports `deployment_status` events to GitHub for this site. If not, the workflow falls back to polling the predictable preview URL for the pull request.
-- Pagefind UI text appears in Hungarian on `/hu/search/`; if a translation is missing, supply the strings in the search template.
+- Hungarian stemming: verified. `bizalmat` returns results on `/hu/search/`, so inflected forms match.
+- Hungarian UI: verified. Pagefind UI text is localized on `/hu/search/`.
+- Netlify `deployment_status` for PR previews: still pending verification on the first pull request. If it never arrives, fall back to polling the predictable preview URL.
 
 ## Out of scope
 
