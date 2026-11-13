@@ -25,6 +25,7 @@ No linters. Verification = a clean build (watch for `WARN` lines) plus `npm test
 ## Deployment
 
 - Push to `main` on GitHub (`petermezei497/hgm-site`) → Netlify runs `npm run build` and publishes `public/`. Deploys go live within a minute or two.
+- CI: `.github/workflows/e2e.yml` ("E2E tests") runs `npm test` against the live site on `deployment_status` success (PR previews), on push to `main` and on manual `workflow_dispatch` (`base_url` input). For `main` it first polls `/version.txt` (written at build by `scripts/write-version.mjs` from Netlify's `COMMIT_REF`) until it equals the pushed SHA, which proves the live site is the new build.
 - `public/` is build output and is gitignored — never commit it.
 - `netlify.toml` holds www/https redirects, security headers and the **Content-Security-Policy**. Any new external script, style, font or API (e.g. embeds, comments, analytics) must be allowed there or browsers will block it.
 - Versions are pinned in `netlify.toml` `[build.environment]`: `HUGO_VERSION = "0.154.3"` (PaperMod requires ≥ 0.146), `NODE_VERSION = "24"`. Keep local Hugo (Homebrew extended) and Node close to these.

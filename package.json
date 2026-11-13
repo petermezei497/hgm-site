@@ -6,7 +6,7 @@
     "node": ">=24"
   },
   "scripts": {
-    "build": "hugo --gc --minify && node scripts/build-search-index.mjs",
+    "build": "hugo --gc --minify && node scripts/build-search-index.mjs && node scripts/write-version.mjs",
     "preview": "npm run build && python3 -m http.server 8080 --directory public",
     "test": "playwright test"
   },

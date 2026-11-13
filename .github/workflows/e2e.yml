@@ -1,0 +1,97 @@
+name: E2E tests
+
+on:
+  deployment_status:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Base URL of the site to test
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+# Non-success deployment_status events (pending, in_progress) get their own
+# group so they cannot cancel a real run.
+concurrency:
+  group: e2e-${{ github.event.deployment.sha || github.ref }}-${{ github.event.deployment_status.state || github.event_name }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    if: github.event_name != 'deployment_status' || github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Choose target URL
+        id: target
+        env:
+          EVENT: ${{ github.event_name }}
+          DEPLOY_URL: ${{ github.event.deployment_status.environment_url || github.event.deployment_status.target_url }}
+          INPUT_URL: ${{ inputs.base_url }}
+        run: |
+          case "$EVENT" in
+            deployment_status) url="$DEPLOY_URL" ;;
+            push) url="https://www.human-growth-model.xyz" ;;
+            workflow_dispatch) url="$INPUT_URL" ;;
+          esac
+          if [ -z "$url" ]; then
+            echo "::error::No target URL for event $EVENT"
+            exit 1
+          fi
+          echo "Testing $url"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.deployment.sha || github.sha }}
+
+      - name: Wait for production deploy
+        if: github.event_name == 'push'
+        env:
+          URL: ${{ steps.target.outputs.url }}
+          EXPECTED: ${{ github.sha }}
+          TIMEOUT: "600"
+        run: |
+          # Netlify reports nothing to GitHub for production, so wait until
+          # the live site serves this commit's SHA in version.txt.
+          deadline=$((SECONDS + TIMEOUT))
+          while true; do
+            live=$(curl -fsS "$URL/version.txt?cb=$(date +%s)" 2>&1) || true
+            if [ "$live" = "$EXPECTED" ]; then
+              echo "Live site is serving $EXPECTED"
+              exit 0
+            fi
+            if [ "$SECONDS" -ge "$deadline" ]; then
+              echo "::error::Timed out after ${TIMEOUT}s waiting for $URL/version.txt to equal $EXPECTED (last response: $live)"
+              exit 1
+            fi
+            echo "Not yet (last response: $live). Retrying in 15s."
+            sleep 15
+          done
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx playwright install --with-deps chromium
+
+      - run: npm test
+        env:
+          CI: true
+          BASE_URL: ${{ steps.target.outputs.url }}
+
+      - uses: actions/upload-artifact@v7
+        if: failure()
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
