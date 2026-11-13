@@ -24,7 +24,7 @@ No linters. Verification = a clean build (watch for `WARN` lines) plus `npm test
 
 ## Deployment
 
-- Push to `main` on GitHub (`petermezei497/hgm-site`) → Netlify runs `npm run build` and publishes `public/`. Deploys go live in ~30s.
+- Push to `main` on GitHub (`petermezei497/hgm-site`) → Netlify runs `npm run build` and publishes `public/`. Deploys go live within a minute or two.
 - `public/` is build output and is gitignored — never commit it.
 - `netlify.toml` holds www/https redirects, security headers and the **Content-Security-Policy**. Any new external script, style, font or API (e.g. embeds, comments, analytics) must be allowed there or browsers will block it.
 - Versions are pinned in `netlify.toml` `[build.environment]`: `HUGO_VERSION = "0.154.3"` (PaperMod requires ≥ 0.146), `NODE_VERSION = "24"`. Keep local Hugo (Homebrew extended) and Node close to these.
@@ -32,7 +32,7 @@ No linters. Verification = a clean build (watch for `WARN` lines) plus `npm test
 
 ## Architecture
 
-- **Config:** single `hugo.toml`. Defines both languages, per-language main menus (Posts, Core Ideas, About, Support) and PaperMod feature flags under `[params]`. `markup.goldmark.renderer.unsafe = true` is required — posts use inline HTML (`<br>` for line breaks).
+- **Config:** single `hugo.toml`. Defines both languages, per-language main menus (Posts, Core Ideas, Search, About, Support) and PaperMod feature flags under `[params]`. `markup.goldmark.renderer.unsafe = true` is required — posts use inline HTML (`<br>` for line breaks).
 - **Multilingual:** `contentDir` per language — `content/en/` and `content/hu/`, served under `/en/` and `/hu/` (`defaultContentLanguageInSubdir`). Each language tree has the same sections: `posts/`, `lessons/`, `support/`, `about.md`. Post filenames differ between languages and there are no `translationKey`s, so individual posts are **not** linked as translations of each other; only same-path pages (section indexes, `about.md`) are.
 - **Sections:**
   - `posts/` — dated journal entries, sorted by date. Filenames `YYYY-MM-DD-Title.md`. Front matter: `title`, `date`, `draft`, `publishDate`.
@@ -48,5 +48,5 @@ No linters. Verification = a clean build (watch for `WARN` lines) plus `npm test
 - `publishDate` in the future hides a post until the site is rebuilt after that time. Netlify only rebuilds on push, so "scheduled" posts don't appear on their own.
 - Existing content uses YAML front matter (`---`), but `archetypes/default.md` generates TOML (`+++`) with `draft = true` — remember to flip `draft` before publishing.
 - Plausible is allowed in the CSP but no Plausible script is actually included in any template.
-- Pagefind also matches indexed words that are prefixes of the query ("PaperMod" matches "paper"), so test queries must account for that.
+- Pagefind matches by prefix in both directions: a query matches longer indexed words (`pap` → `paper`) and also indexed words that are a prefix of the query (`PaperMod` → `paper`, `xqzvkjw` → `X` from "Gen X"). Pick test queries that can't collide (e.g. `qqqqwwww` for no results).
 - Writing style: content is personal, reflective prose; don't edit post text unless asked.
